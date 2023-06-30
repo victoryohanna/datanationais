@@ -1,6 +1,50 @@
+.contact-wrapper {
+  background: rgba(16, 143, 191);
+  padding: 20px 0;
 
-.contact-wrapper{
-    background: rgba(16, 143, 191);
-    padding: 20px 0;
- 
+  .contact {
+    .header-text {
+      width: 70%;
+      margin: 20px auto;
+      text-align: center;
+      padding-bottom: 40px;
+      h1 {
+        font-weight: 700;
+      }
+      span {
+        font-size: 22px;
+      }
+    }
+
+    .row {
+      .col-md-5 {
+        .address {
+          text-align: center;
+          // width: 50%;
+
+          p {
+            line-height: 50%;
+          }
+        }
+      }
+
+      .col-md-4 {
+        .email {
+          .contact-form {
+            .button-section {
+              display: flex;
+              justify-content: flex-end;
+
+              button {
+                width: 40%;
+                background: #f1f1f1;
+                border-radius: 10px;
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
