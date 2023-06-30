@@ -1,0 +1,39 @@
+.services-wrapper {
+  background: #f1f1f1;
+  padding: 20px 0;
+
+  .services-container {
+    .header-text {
+      text-align: center;
+      margin: 20px 0;
+
+      h1 {
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      span {
+        font-size: 20px;
+        opacity: 0.5;
+      }
+    }
+
+    .row {
+        margin: 40px 0;
+      .col-md-6 {
+        margin: 10px 0;
+        .data-analytic,
+        .research-section,
+        .software_dev-section,
+        .training-section{
+          margin: 10px;
+          padding: 15px;
+          background: #f1f1f1;
+          font-size: 18px;
+          -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+          box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        }
+      }
+    }
+  }
+}
