@@ -1,5 +1,5 @@
 .nav-wrapper {
-
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   .navbar-wrapper {
     background: #f8f7f7;
     .navbar-body{
@@ -18,8 +18,8 @@
               display: flex;
               justify-content: space-between;
               text-align: center;
-              // border-right: 1px solid #afadad;
               padding: 0 20px;
+              font-size: 18px;
             }
           }
           a {

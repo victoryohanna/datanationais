@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import { GrMail } from "react-icons/gr";
-import { MdCall } from "react-icons/md";
 import brand from "../assets/logo1.jpg";
 
 import "../sass/navbar.scss";

@@ -1,15 +1,16 @@
 .footer {
-  background: rgba(48, 48, 32);
-  color: #ffffff;
+  background: #f8f7f7;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  // color: #ffffff;
 
   .logo-section {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 30px 0;
 
     img {
       width: 250px;
-      height: 40px;
+      height: 60px;
     }
   }
 
@@ -19,7 +20,7 @@
         ul {
           display: inline-block;
           line-height: 35px;
-          font-size: 14px;
+          // font-size: 14px;
 
           li {
             list-style: none;
@@ -31,8 +32,8 @@
 
           a {
             text-decoration: none;
-            color: #ffffff;
-            font-weight: 100;
+            color: #222121;
+            font-weight: 400;
           }
         }
       }
@@ -52,7 +53,7 @@
         }
 
         a {
-          color: #ffffff;
+          color: #222121;
 
           :hover {
             color: blue;
@@ -65,7 +66,8 @@
   .copyright {
     margin-top: 20px;
     padding: 20px 0;
-    font-size: 12px;
+    font-size: 16px;
     background: rgba(16, 16, 0);
+    color: #f1f1f1;
   }
 }

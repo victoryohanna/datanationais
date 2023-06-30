@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
-// import { logo } from "./files/images";
+import brand from "../assets/logo1.jpg";
 
 import "../sass/footer.scss";
 
@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="logo-section">
-        <img src="" className="footer-logo" alt="..." />
+        <img src={brand} className="footer-logo" alt="..." />
       </div>
       <div className="container">
         <div className="row">
@@ -17,25 +17,19 @@ const Footer = () => {
             <hr />
             <ul>
               <li>
-                <Link to="/">Admission Processing</Link>
+                <Link to="/">Data Analytics</Link>
               </li>
               <li>
-                <Link to="/">Personal Statements</Link>
+                <Link to="/">Business Intelligence</Link>
               </li>
               <li>
-                <Link to="/">Score Reporting</Link>
+                <Link to="/">Academic Research</Link>
               </li>
               <li>
-                <Link to="/">Proof of Fund</Link>
+                <Link to="/">Web Development</Link>
               </li>
               <li>
-                <Link to="/">Passport Processing</Link>
-              </li>
-              <li>
-                <Link to="/">Visa Processing</Link>
-              </li>
-              <li>
-                <Link to='/'>Study Abroad Packages</Link>
+                <Link to="/">Training</Link>
               </li>
               <li>
                 <Link to='/'>Consultancy</Link>
@@ -43,18 +37,25 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-3 quick-links">
-            <h4>Contact Us</h4>
+            <h4>Quick Links</h4>
             <hr />
             <ul>
               <li>
-                Address:{" "}
-                <p>
-                  Development & Innovation Centre No 23, Ven Adefila Street, Off
-                  Lajorin Road, G.R.A Ilorin, Kwara State, Nigeria.
-                </p>
+                <Link to="/">Home</Link>
               </li>
-              <li>Phone Number: +23408090901234</li> 
-              <li>Email Address: info@exams.com</li>
+              <li>
+                <Link to="/">About</Link>
+              </li>
+              <li>
+                <Link to="/">Projects</Link>
+              </li>
+              <li>
+                <Link to="/">Contact Us</Link>
+              </li>
+              <li>
+                <Link to="/">Terms & Conditions</Link>
+              </li>
+              
             </ul>
           </div>
           <div className="col-md-6 ">
