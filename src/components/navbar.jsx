@@ -36,7 +36,7 @@ const Navbar = () => {
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-120}
+                    offset={-90}
                     duration={500}
                   >
                     Home
@@ -50,7 +50,7 @@ const Navbar = () => {
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-118}
+                    offset={-90}
                     duration={500}
                   >
                     About
@@ -64,7 +64,7 @@ const Navbar = () => {
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-120}
+                    offset={-90}
                     duration={500}
                   >
                     Services
@@ -78,7 +78,7 @@ const Navbar = () => {
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-118}
+                    offset={-90}
                     duration={500}
                   >
                     Course Modules
@@ -92,24 +92,24 @@ const Navbar = () => {
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-118}
+                    offset={-90}
                     duration={500}
                   >
-                    Contact
+                    Contact Us
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="contact-section"
+                    to="clients-section"
                     className="nav-link "
                     aria-current="page"
                     activeClass="active"
                     spy={true}
                     smooth={true}
-                    offset={-118}
+                    offset={-90}
                     duration={500}
                   >
-                    Our Clients
+                    Clients
                   </Link>
                 </li>
               </ul>

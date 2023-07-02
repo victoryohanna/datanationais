@@ -3,6 +3,7 @@ import About from "../components/aboutus";
 import Services from "../components/services";
 import ContactUs from "../components/contact";
 import Courses from "../components/courses";
+import Clients from "../components/clients";
 
 import "../sass/home.scss"
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Services/>
       <Courses/>
       <ContactUs/>
+      <Clients/>
     </div>
   );
 };
