@@ -67,7 +67,7 @@ const Services = () => {
               <div className="apply-button">
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-apply"
                   data-bs-toggle="modal"
                   data-bs-target="#regModal"
                 >
