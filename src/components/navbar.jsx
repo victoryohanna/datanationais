@@ -69,8 +69,15 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="hero-section" className="nav-link ">
-                    Projects
+                <Link to="courses-section"
+                    className="nav-link "
+                    aria-current="page"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-118}
+                    duration={500}>
+                    Course Modules
                   </Link>
                 </li>
                 <li className="nav-item">
