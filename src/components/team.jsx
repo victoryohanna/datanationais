@@ -9,7 +9,13 @@ const OurTeam = ()=>{
                 </div>
                 <div className="team-section">
                     <div className="row">
-                        <div className="col-md-3">
+                        <div className="col-md-4">
+                            <img src="" alt="" />
+                        </div>
+                        <div className="col-md-4">
+                            <img src="" alt="" />
+                        </div>
+                        <div className="col-md-4">
                             <img src="" alt="" />
                         </div>
                     </div>
