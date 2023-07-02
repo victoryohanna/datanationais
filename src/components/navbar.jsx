@@ -43,14 +43,16 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="about-section"
+                  <Link
+                    to="about-section"
                     className="nav-link "
                     aria-current="page"
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={-118}
-                    duration={500}>
+                    duration={500}
+                  >
                     About
                   </Link>
                 </li>
@@ -69,30 +71,57 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                <Link to="courses-section"
+                  <Link
+                    to="courses-section"
                     className="nav-link "
                     aria-current="page"
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={-118}
-                    duration={500}>
+                    duration={500}
+                  >
                     Course Modules
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="contact-section"
+                  <Link
+                    to="contact-section"
                     className="nav-link "
                     aria-current="page"
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={-118}
-                    duration={500}>
+                    duration={500}
+                  >
                     Contact
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link
+                    to="contact-section"
+                    className="nav-link "
+                    aria-current="page"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-118}
+                    duration={500}
+                  >
+                    Our Clients
+                  </Link>
+                </li>
               </ul>
+              <div className="button-section">
+                <button
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#regModal"
+                >
+                  Apply Now
+                </button>
+              </div>
             </div>
           </div>
         </nav>

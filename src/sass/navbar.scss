@@ -11,44 +11,45 @@
       .container-fluid {
         .navbar-brand {
           img {
-            width: 350px;
+            width: 250px;
           }
         }
         .navbar-collapse {
           ul {
-            width: 100%;
-
+        
             li {
               display: flex;
               justify-content: space-between;
               text-align: center;
-              padding: 0 20px;
+              padding: 0 8px;
               font-size: 18px;
             }
-          }
-          a {
-            color: #1e1e1e;
-            img {
-              width: 100px;
-              height: 40px;
+
+            a {
+              color: #1e1e1e;
+              
+            }
+
+            :hover {
+              color: rgb(197, 197, 212);
+              cursor: pointer;
             }
           }
-
-          a:hover {
-            color: rgb(197, 197, 212);
-            cursor: pointer;
-          }
-
-          .dropdown {
-            .dropdown-menu {
-              // background: rgba(19, 18, 18, 0.5);
-              width: 13rem;
-              li {
-                text-align: left;
-                border: none;
-              }
+          
+          .button-section{
+            // border: 1px solid black;
+            margin-left: 100px;
+            button{
+              font-size: 22px;
+              color: rgb(192, 7, 84);
+              padding: 10px;
+              font-weight: 600;
+              border-radius: 8px;
+              background: #f8f7f7;
+              // border: 1px solid #f8f7f7;
             }
           }
+          
         }
       }
     }

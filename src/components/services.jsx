@@ -29,7 +29,7 @@ const Services = () => {
                 voluptatibus ipsa ipsum error eum optio atque in veritatis
                 voluptas fuga doloremque rem distinctio illo.
               </p>
-              <Link to="/"></Link>
+              
             </div>
           </div>
           <div className="col-md-6">
