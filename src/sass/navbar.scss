@@ -1,24 +1,23 @@
 .nav-wrapper {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
   .navbar-wrapper {
     background: #f8f7f7;
     position: fixed;
     top: 0;
     z-index: 3;
-    
-    .navbar-body{
-      .container-fluid{
-        .navbar-brand{
-          img{
+
+    .navbar-body {
+      .container-fluid {
+        .navbar-brand {
+          img {
             width: 350px;
           }
         }
-        .navbar-collapse{
+        .navbar-collapse {
           ul {
-            
             width: 100%;
-            
+
             li {
               display: flex;
               justify-content: space-between;
@@ -39,7 +38,7 @@
             color: rgb(197, 197, 212);
             cursor: pointer;
           }
-      
+
           .dropdown {
             .dropdown-menu {
               // background: rgba(19, 18, 18, 0.5);
@@ -53,12 +52,6 @@
         }
       }
     }
-
-    
-
-    
-
-   
   }
 }
 
@@ -71,7 +64,7 @@
     .navbar-wrapper {
       background: #ffffff;
 
-      a{
+      a {
         color: #000000;
       }
       .navbar-body {
@@ -81,16 +74,12 @@
               display: block;
               text-align: left;
               border-right: none;
-              
             }
           }
         }
       }
     }
-
   }
-
-  
 }
 
 @media screen and (min-width: 991px) {

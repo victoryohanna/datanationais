@@ -1,6 +1,14 @@
 import "../sass/services.scss";
+import { Link } from "react-scroll";
+import { useNavigate } from "react-router-dom";
+import RegisterCourse from "./register";
 
 const Services = () => {
+  const navigate = useNavigate();
+
+  const navigation = () => {
+    navigate("/register");
+  };
   return (
     <div className="services-wrapper" id="services-section">
       <div className="container services-container">
@@ -21,6 +29,7 @@ const Services = () => {
                 voluptatibus ipsa ipsum error eum optio atque in veritatis
                 voluptas fuga doloremque rem distinctio illo.
               </p>
+              <Link to="/"></Link>
             </div>
           </div>
           <div className="col-md-6">
@@ -55,10 +64,21 @@ const Services = () => {
                 voluptatum reiciendis fugit dicta sequi quam doloribus ab
                 corporis, nulla perferendis est aut molestias unde quo.
               </p>
+              <div className="apply-button">
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#regModal"
+                >
+                  Apply Now
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <RegisterCourse/>
     </div>
   );
 };

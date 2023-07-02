@@ -1,0 +1,25 @@
+#regModal {
+  .modal-dialog {
+    .modal-content {
+      .modal-header {
+        background: rgba(16, 143, 191);
+        color: #ffffff;
+      }
+
+      .modal-body {
+        .form-control,
+        .form-select {
+          border-radius: 0;
+        }
+      }
+
+      .modal-footer {
+        .btn-submit {
+          background: rgba(16, 143, 191);
+          color: #ffffff;
+          width: 30%;
+        }
+      }
+    }
+  }
+}

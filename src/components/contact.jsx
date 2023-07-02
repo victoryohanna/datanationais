@@ -20,14 +20,14 @@ const ContactUs = () => {
               <p>datanation16@gmail.com</p>
               <div className="contact-form">
                 <form>
-                  <div class="mb-3">
+                  <div className="mb-3">
                     <input
                       type="text"
                       className="form-control"
                       placeholder="Subject"
                     />
                   </div>
-                  <div class="mb-3">
+                  <div className="mb-3">
                     <input
                       type="email"
                       className="form-control"
