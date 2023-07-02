@@ -1,5 +1,7 @@
 
 import "../sass/clients.scss";
+import { client1, client2, client3 } from "./elements/services";
+
 const Clients = ()=>{
     return(
         <div className="clients-wrapper " id="clients-section">
@@ -10,7 +12,16 @@ const Clients = ()=>{
                 <div className="clients-section">
                     <div className="row">
                         <div className="col-md-3">
-                            <img src="" alt="" />
+                            <img src={client1} alt="" />
+                        </div>
+                        <div className="col-md-3">
+                            <img src={client2} alt="" />
+                        </div>
+                        <div className="col-md-3">
+                            <img src={client3} alt="" />
+                        </div>
+                        <div className="col-md-3">
+                            <img src={client2} alt="" />
                         </div>
                     </div>
                 </div>
