@@ -1,10 +1,10 @@
 import "../sass/contactUs.scss";
-import Map from "./elements/map";
-import location from './elements/location'
+// import Map from "./elements/map";
+// import location from './elements/location'
 
 const ContactUs = () => {
   return (
-    <div className="contact-wrapper">
+    <div className="contact-wrapper" id="contact-section">
       <div className="container contact">
         <div className="header-text">
           <h1>Contact Us</h1>
@@ -54,7 +54,7 @@ const ContactUs = () => {
               <p>Ilorin Kwara State</p>
             </div>
             <div className="map-section">
-                <Map location={location} zoomLevel={15}/>
+                {/* <Map location={location} zoomLevel={15}/> */}
             </div>
           </div>
           <div className="col-md-3">

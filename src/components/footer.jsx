@@ -6,7 +6,7 @@ import "../sass/footer.scss";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="footer-section">
       <div className="logo-section">
         <img src={brand} className="footer-logo" alt="..." />
       </div>

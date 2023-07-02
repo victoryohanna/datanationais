@@ -2,7 +2,7 @@ import "../sass/services.scss";
 
 const Services = () => {
   return (
-    <div className="services-wrapper">
+    <div className="services-wrapper" id="services-section">
       <div className="container services-container">
         <div className="header-text">
           <h1>Our Services</h1>

@@ -1,9 +1,8 @@
 .wrapper {
   background: rgba(16, 143, 191);
   border: 1px solid #f1f1f1;
-  margin-top: 12px;
   color: #ffffff;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   .about-container {
     margin: 20px auto;
     .header-text {
@@ -27,8 +26,8 @@
     }
 
     .row {
-        margin: 50px 0;
-       
+      margin: 50px 0;
+
       .col-md-6 {
         .what,
         .how {
@@ -40,16 +39,14 @@
           -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
           box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
 
-          div{
-            
+          div {
             padding: 0 20px;
-            h3{
-                font-weight: 600;
-                margin-top: 30px;
+            h3 {
+              font-weight: 600;
+              margin-top: 30px;
             }
-            p{
-                font-size: 18px;
-                
+            p {
+              font-size: 18px;
             }
           }
         }

@@ -5,8 +5,8 @@ import Banner from "./elements/Banner";
 
 const HeaderComponent = () => {
   return (
-    <div className="container-header">
-      <Banner />
+    <div className="container-header" id="hero-section">
+      
       <div
         className="carousel slide carousel-fade carousel-section "
         data-bs-ride="carousel"
@@ -21,6 +21,7 @@ const HeaderComponent = () => {
           
         </div>
       </div>
+      <Banner />
     </div>
   );
 };

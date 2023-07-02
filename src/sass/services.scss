@@ -1,7 +1,7 @@
 .services-wrapper {
   background: #f1f1f1;
   padding: 20px 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 
   .services-container {
     .header-text {
@@ -20,13 +20,13 @@
     }
 
     .row {
-        margin: 40px 0;
+      margin: 40px 0;
       .col-md-6 {
         margin: 10px 0;
         .data-analytic,
         .research-section,
         .software_dev-section,
-        .training-section{
+        .training-section {
           margin: 10px;
           padding: 15px;
           height: 250px;
@@ -34,8 +34,29 @@
           font-size: 18px;
           -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
           box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+          // animation-duration: 3s;
+          // animation-name: slidein;
         }
       }
+      animation-name: bounce;
+          animation-duration: 10s;
+          animation-iteration-count: 1;
+          animation-direction: alternate;
     }
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: rotateX(-20deg) translateZ(20px);
+    // transform: rotateY(90deg) translateZ(50px);
+    // transform: rotateX(90deg) translateZ(50px);
+  }
+
+  100% {
+    transform: rotateY(20deg) translateZ(20px);
+    // transform: rotateY(-90deg) translateZ(50px);
+    // transform: rotateX(-90deg) translateZ(50px);
   }
 }

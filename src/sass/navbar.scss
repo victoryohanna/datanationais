@@ -1,7 +1,12 @@
 .nav-wrapper {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
   .navbar-wrapper {
     background: #f8f7f7;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    
     .navbar-body{
       .container-fluid{
         .navbar-brand{
@@ -32,6 +37,7 @@
 
           a:hover {
             color: rgb(197, 197, 212);
+            cursor: pointer;
           }
       
           .dropdown {

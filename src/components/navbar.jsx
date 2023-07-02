@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import brand from "../assets/logo1.jpg";
 
 import "../sass/navbar.scss";
@@ -29,31 +29,59 @@ const Navbar = () => {
             >
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link to="/" className="nav-link " aria-current="page">
+                  <Link
+                    to="hero-section"
+                    className="nav-link "
+                    aria-current="page"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-120}
+                    duration={500}
+                  >
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/" className="nav-link " aria-current="page">
+                  <Link to="about-section"
+                    className="nav-link "
+                    aria-current="page"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-118}
+                    duration={500}>
                     About
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
+                    to="services-section"
                     className="nav-link "
-                    role="button"
-                    aria-expanded="false"
+                    aria-current="page"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-120}
+                    duration={500}
                   >
                     Services
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/" className="nav-link ">
+                  <Link to="hero-section" className="nav-link ">
                     Projects
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/" className="nav-link " aria-current="page">
+                  <Link to="contact-section"
+                    className="nav-link "
+                    aria-current="page"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={-118}
+                    duration={500}>
                     Contact
                   </Link>
                 </li>
