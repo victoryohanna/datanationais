@@ -4,6 +4,7 @@ import Services from "../components/services";
 import ContactUs from "../components/contact";
 import Courses from "../components/courses";
 import Clients from "../components/clients";
+import OurTeam from "../components/team";
 
 import "../sass/home.scss"
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Courses/>
       <ContactUs/>
       <Clients/>
+      <OurTeam/>
     </div>
   );
 };
