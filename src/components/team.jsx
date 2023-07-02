@@ -11,12 +11,18 @@ const OurTeam = ()=>{
                     <div className="row">
                         <div className="col-md-4">
                             <img src="" alt="" />
+                            <p>Sodiq</p>
+                            <p>Team Lead</p>
                         </div>
                         <div className="col-md-4">
                             <img src="" alt="" />
+                            <p>Ibukun</p>
+                            <p>CTO</p>
                         </div>
                         <div className="col-md-4">
                             <img src="" alt="" />
+                            <p>Abiodun</p>
+                            <p>Head Training</p>
                         </div>
                     </div>
                 </div>

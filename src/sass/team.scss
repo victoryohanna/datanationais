@@ -15,11 +15,18 @@
           }
 
           .team-section{
+
             .row{
                 .col-md-4{
+                  text-align: center;
                     img{
                         width: 250px;
-                        height: 300px;
+                        height: 250px;
+                        margin-bottom: 15px ;
+                    }
+                    p{
+                      font-size: 20px;
+                      line-height: 10px;
                     }
                 }
             }
