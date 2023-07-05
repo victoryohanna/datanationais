@@ -56,7 +56,7 @@ const Services = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="training-section">
+            <div className="training-section"> 
               <h3>Training</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.

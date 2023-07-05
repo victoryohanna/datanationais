@@ -1,11 +1,36 @@
+import { useState } from "react";
 import "../sass/register.scss";
+
+const course = [
+  "Data Analysis",
+  "Web Development",
+  "Android & IOS Application",
+];
+
 const RegisterCourse = () => {
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [courseName, setCourseName] = useState("");
+
+  const handleSubmit = (e)=>{
+    e.preventDefault()
+
+    let data = {
+      fullName,
+      email,
+      phoneNumber,
+      courseName
+    }
+
+    console.log(data)
+  }
   return (
     <div
       className="modal fade"
       id="regModal"
-      tabindex="-1"
-      aria-labelledby="regModalLabel"
+      tabIndex="-1"
+      aria-labelledby="regModalLabel" 
       aria-hidden="true"
     >
       <div className="modal-dialog">
@@ -22,42 +47,65 @@ const RegisterCourse = () => {
             ></button>
           </div>
           <div className="modal-body">
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="mb-3">
                 <label htmlFor="fullName" className="form-label">
                   Full Name
                 </label>
-                <input type="text" className="form-control " id="fullName" />
+                <input
+                  type="text"
+                  className="form-control "
+                  name="fullName"
+                  id="fullName"
+                  onChange={(e)=>setFullName(e.target.value)}
+                />
               </div>
               <div className="mb-3">
                 <label htmlFor="email" className="form-label">
                   Email address
                 </label>
-                <input type="email" className="form-control" id="email" />
+                <input
+                  type="email"
+                  className="form-control"
+                  name="email"
+                  id="email"
+                  onChange={(e)=>setEmail(e.target.value)}
+                />
               </div>
               <div className="mb-3">
                 <label htmlFor="phoneNumber" className="form-label">
                   Phone Number
                 </label>
-                <input type="text" className="form-control " id="phoneNumber" />
+                <input
+                  type="text"
+                  className="form-control "
+                  name="phoneNumber"
+                  id="phoneNumber"
+                  onChange={(e)=>setPhoneNumber(e.target.value)}
+                />
               </div>
               <div className="mb-3">
                 <label htmlFor="course" className="form-label">
                   Course
                 </label>
-                <select className="form-select " aria-label="Default select ">
+                <select
+                  className="form-select"
+                  name="course"
+                  aria-label="Default select "
+                  onChange={(e)=>setCourseName(e.target.value)}
+                >
                   <option>Select</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  {course.map((item, i) => {
+                    return <option key={i}>{item}</option>;
+                  })}
                 </select>
               </div>
-            </form>
-          </div>
-          <div className="modal-footer">
-            <button type="submit" className="btn btn-submit">
+              <div className="btn-submit">
+              <button type="submit" className="btn ">
               Submit
             </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>

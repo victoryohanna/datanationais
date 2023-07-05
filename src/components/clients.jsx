@@ -1,5 +1,6 @@
 
 import "../sass/clients.scss";
+import {Link} from "react-router-dom"
 import { client1, client2, client3 } from "./elements/services";
 
 const Clients = ()=>{
@@ -11,18 +12,20 @@ const Clients = ()=>{
                 </div>
                 <div className="clients-section">
                     <div className="row">
-                        <div className="col-md-3">
-                            <img src={client1} alt="" />
+                        <div className="col-md-4">
+                            <Link to="/"><img src={client1} alt="" /> </Link>
+                            
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-4">
+                            <Link to="/"><img src={client2} alt="" /></Link>
+                            
+                        </div>
+                        <div className="col-md-4">
+                            <Link to="/"><img src={client3} alt="" /> </Link>
+                        </div>
+                        {/* <div className="col-md-3">
                             <img src={client2} alt="" />
-                        </div>
-                        <div className="col-md-3">
-                            <img src={client3} alt="" />
-                        </div>
-                        <div className="col-md-3">
-                            <img src={client2} alt="" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

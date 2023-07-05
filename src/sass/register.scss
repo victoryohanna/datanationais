@@ -11,13 +11,16 @@
         .form-select {
           border-radius: 0;
         }
-      }
 
-      .modal-footer {
         .btn-submit {
-          background: rgba(16, 143, 191);
-          color: #ffffff;
-          width: 30%;
+          display: flex;
+          justify-content: flex-end;
+
+          button{
+            background: rgba(16, 143, 191);
+            color: #ffffff;
+            width: 30%;
+          }
         }
       }
     }
