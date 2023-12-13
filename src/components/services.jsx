@@ -34,6 +34,17 @@ const Services = () => {
           </div>
           <div className="col-md-6">
             <div className="research-section">
+              <h3>Business Intelligence</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                error non quae alias veniam ullam quod asperiores dolor! Ipsum
+                praesentium neque eius quam, itaque veniam illo cum vitae quo
+                quae.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="research-section">
               <h3>Academic Research</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
@@ -74,6 +85,17 @@ const Services = () => {
                   Apply Now
                 </button>
               </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="research-section">
+              <h3>Consultancy</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                error non quae alias veniam ullam quod asperiores dolor! Ipsum
+                praesentium neque eius quam, itaque veniam illo cum vitae quo
+                quae.
+              </p>
             </div>
           </div>
         </div>

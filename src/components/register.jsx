@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../sass/register.scss";
+import axios from "axios";
 
 const course = [
   "Data Analysis",
@@ -14,25 +15,34 @@ const RegisterCourse = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [courseName, setCourseName] = useState("");
 
-  const handleSubmit = (e)=>{
-    e.preventDefault()
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-    let data = {
+    let studentData = {
+      regNo:"001",
       fullName,
       gender,
       email,
       phoneNumber,
-      courseName
-    }
+      courseName,
+    };
 
-    console.log(data)
-  }
+    await axios.post("http://localhost:4000", studentData).then((data) => {
+      if(data){
+        alert("Saved Successfully") 
+        console.log(data);
+      }else{
+        alert("Not Successfull")
+      }
+      
+    });
+  };
   return (
     <div
       className="modal fade"
       id="regModal"
       tabIndex="-1"
-      aria-labelledby="regModalLabel" 
+      aria-labelledby="regModalLabel"
       aria-hidden="true"
     >
       <div className="modal-dialog">
@@ -59,7 +69,7 @@ const RegisterCourse = () => {
                   className="form-control "
                   name="fullName"
                   id="fullName"
-                  onChange={(e)=>setFullName(e.target.value)}
+                  onChange={(e) => setFullName(e.target.value)}
                 />
               </div>
               <div className="mb-3">
@@ -70,7 +80,7 @@ const RegisterCourse = () => {
                   className="form-select"
                   name="course"
                   aria-label="Default select "
-                  onChange={(e)=>setGender(e.target.value)} 
+                  onChange={(e) => setGender(e.target.value)}
                 >
                   <option>Select</option>
                   <option>Female</option>
@@ -86,7 +96,7 @@ const RegisterCourse = () => {
                   className="form-control"
                   name="email"
                   id="email"
-                  onChange={(e)=>setEmail(e.target.value)}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
               <div className="mb-3">
@@ -98,7 +108,7 @@ const RegisterCourse = () => {
                   className="form-control "
                   name="phoneNumber"
                   id="phoneNumber"
-                  onChange={(e)=>setPhoneNumber(e.target.value)}
+                  onChange={(e) => setPhoneNumber(e.target.value)}
                 />
               </div>
               <div className="mb-3">
@@ -109,7 +119,7 @@ const RegisterCourse = () => {
                   className="form-select"
                   name="course"
                   aria-label="Default select "
-                  onChange={(e)=>setCourseName(e.target.value)}
+                  onChange={(e) => setCourseName(e.target.value)}
                 >
                   <option>Select</option>
                   {course.map((item, i) => {
@@ -118,9 +128,9 @@ const RegisterCourse = () => {
                 </select>
               </div>
               <div className="btn-submit">
-              <button type="submit" className="btn ">
-              Submit
-            </button>
+                <button type="submit" className="btn ">
+                  Submit
+                </button>
               </div>
             </form>
           </div>
