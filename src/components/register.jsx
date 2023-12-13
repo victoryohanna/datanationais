@@ -9,6 +9,7 @@ const course = [
 
 const RegisterCourse = () => {
   const [fullName, setFullName] = useState("");
+  const [gender, setGender] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [courseName, setCourseName] = useState("");
@@ -18,6 +19,7 @@ const RegisterCourse = () => {
 
     let data = {
       fullName,
+      gender,
       email,
       phoneNumber,
       courseName
@@ -59,6 +61,21 @@ const RegisterCourse = () => {
                   id="fullName"
                   onChange={(e)=>setFullName(e.target.value)}
                 />
+              </div>
+              <div className="mb-3">
+                <label htmlFor="course" className="form-label">
+                  Gender
+                </label>
+                <select
+                  className="form-select"
+                  name="course"
+                  aria-label="Default select "
+                  onChange={(e)=>setGender(e.target.value)} 
+                >
+                  <option>Select</option>
+                  <option>Female</option>
+                  <option>Male</option>
+                </select>
               </div>
               <div className="mb-3">
                 <label htmlFor="email" className="form-label">
