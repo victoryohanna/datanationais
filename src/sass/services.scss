@@ -69,11 +69,13 @@
           .research-section,
           .software_dev-section,
           .training-section {
+            height: auto;
+            text-align: justify;
+            font-size: 16px;
            h3{
             text-align: center;
            }
   
-            
             // animation-duration: 3s;
             // animation-name: slidein;
           }
@@ -92,7 +94,7 @@
 
         button{
           width: 50%;
-          font-size: 22px;
+          font-size: 18px;
           background: rgba(16, 143, 191);
           color: #ffffff;
         }

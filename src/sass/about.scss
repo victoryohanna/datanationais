@@ -82,6 +82,16 @@
           line-height: 28px;
         }
       }
+      .row {
+        .col-md-6 {
+          .what,
+          .how {
+            height: auto;
+            text-align: justify;
+          }
+        }
+      }
+      
     }
   }
 }

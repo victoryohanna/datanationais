@@ -1,6 +1,6 @@
 .footer {
   background: #f8f7f7;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   // color: #ffffff;
 
   .logo-section {
@@ -69,5 +69,17 @@
     font-size: 16px;
     background: rgba(16, 16, 0);
     color: #f1f1f1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    background: #f8f7f7;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    // color: #ffffff;
+
+    .logo-section {
+      display: none;
+    }
   }
 }

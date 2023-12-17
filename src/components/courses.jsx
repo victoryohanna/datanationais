@@ -30,7 +30,7 @@ const Courses = () => {
                   <Link to="/">
                     <li>Statistical Packages</li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/"> 
                     <li>R & Python Programming</li>
                   </Link>
                 </ul>

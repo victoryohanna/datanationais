@@ -30,7 +30,7 @@ const About = () => {
           </div>
         </div>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6"> 
         <div className="how">
             <div className="title-text">
             <h3>How We Do It</h3>

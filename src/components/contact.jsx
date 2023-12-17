@@ -18,7 +18,7 @@ const ContactUs = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="email">
-              <p>datanation16@gmail.com</p>
+              <p>Email: datanation16@gmail.com</p>
               <div className="contact-form">
                 <form>
                   <div className="mb-3">

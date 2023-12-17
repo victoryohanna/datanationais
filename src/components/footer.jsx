@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
           <div className="col-md-6 ">
             <div className="foot-note">
-              <div className="d-flex justify-content-center">
+              <div className="d-flex ">
                 <h4>Vision & Mission</h4>
               </div>
               <hr />
