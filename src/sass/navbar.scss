@@ -15,8 +15,10 @@
           }
         }
         .navbar-collapse {
+          // display: flex;
+          // justify-content: space-between;
+
           ul {
-        
             li {
               display: flex;
               justify-content: space-between;
@@ -27,7 +29,6 @@
 
             a {
               color: #1e1e1e;
-              
             }
 
             :hover {
@@ -35,11 +36,12 @@
               cursor: pointer;
             }
           }
-          
-          .button-section{
-       
-            margin-left: 100px;
-            button{
+
+          .button-section {
+            width: 400px;
+            display: flex;
+            justify-content: flex-end;
+            button {
               font-size: 18px;
               color: rgb(192, 7, 84);
               padding: 10px;
@@ -49,48 +51,28 @@
               // border: 1px solid #f8f7f7;
             }
           }
-          
         }
       }
     }
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 768px) {
   .nav-wrapper {
-    .top-nav-links {
-      display: none;
-    }
-
     .navbar-wrapper {
-      background: #ffffff;
-
-      a {
-        color: #000000;
-      }
       .navbar-body {
-        .nav-collapse {
-          .navbar-nav {
-            .nav-item {
-              display: block;
-              text-align: left;
-              border-right: none;
+        .container-fluid {
+          .navbar-collapse {
+            .button-section {
+              display: flex;
+              justify-content: flex-start;
+              width: 100%;
+              button{
+                font-size: 16px;
+                padding: 5px;
+              }
             }
           }
-        }
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 991px) {
-  .navbar-wrapper {
-    background: #ffffff;
-    .navbar-body {
-      a {
-        color: #ffffff;
-        img {
-          display: none;
         }
       }
     }

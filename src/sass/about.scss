@@ -1,4 +1,4 @@
-.wrapper {
+.about-wrapper {
   background: rgba(16, 143, 191);
   border: 1px solid #f1f1f1;
   color: #ffffff;
@@ -7,7 +7,7 @@
     margin: 20px auto;
     .header-text {
       padding: 10px 0;
-      margin: 80px 0 0 0;
+      margin: 60px 0 0 0;
 
       h1 {
         font-size: 48px;
@@ -33,12 +33,16 @@
         .how {
           border-radius: 10px;
           padding: 10px;
+          margin: 20px 0;
           background: #f1f1f1;
           color: #1e1e1e;
           height: 250px;
           -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
           box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
 
+          .title-text{
+            text-align: center;
+          }
           div {
             padding: 0 20px;
             h3 {
@@ -49,6 +53,33 @@
               font-size: 18px;
             }
           }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  .about-wrapper{
+    .about-container{
+      .header-text {
+        // padding: 10px 0;
+        margin: 40px 0 0 0;
+        text-align: center;
+  
+        h1 {
+          font-size: 28px;
+          font-weight: 700;
+        }
+      }
+
+      .who {
+        width: 100%;
+  
+        p {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 28px;
         }
       }
     }

@@ -7,25 +7,25 @@ const Navbar = () => {
   return (
     <div className="nav-wrapper">
       <div className="container-fluid navbar-wrapper">
-        <nav className=" container navbar navbar-expand-lg navbar-body">
-          <div className="container-fluid">
+        <nav className="navbar navbar-expand-lg navbar-body">
+          <div className="container-fluid  ">
             <div className="navbar-brand">
-              <img src={brand} alt="brand" />
+              <img src={brand} alt="brand" style={{width:"250px"}} />
             </div>
             <button
-              className="navbar-toggler fff"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="true"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon toggle-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              className="collapse navbar-collapse nav-collapse "
-              id="navbarNav"
+              className="collapse navbar-collapse "
+              id="navbarSupportedContent"
             >
               <ul className="navbar-nav">
                 <li className="nav-item">

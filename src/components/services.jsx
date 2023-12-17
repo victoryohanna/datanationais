@@ -75,16 +75,7 @@ const Services = () => {
                 voluptatum reiciendis fugit dicta sequi quam doloribus ab
                 corporis, nulla perferendis est aut molestias unde quo.
               </p>
-              <div className="apply-button">
-                <button
-                  type="button"
-                  className="btn btn-apply"
-                  data-bs-toggle="modal"
-                  data-bs-target="#regModal"
-                >
-                  Apply Now
-                </button>
-              </div>
+              
             </div>
           </div>
           <div className="col-md-6">
@@ -98,6 +89,16 @@ const Services = () => {
               </p>
             </div>
           </div>
+          <div className="apply-button">
+                <button
+                  type="button"
+                  className="btn btn-apply"
+                  data-bs-toggle="modal"
+                  data-bs-target="#regModal"
+                >
+                  Apply Now
+                </button>
+              </div>
         </div>
       </div>
       <RegisterCourse/>

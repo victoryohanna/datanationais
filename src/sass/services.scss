@@ -34,17 +34,7 @@
           -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
           box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
 
-          .apply-button{
-            display: flex;
-            justify-content: center;
-
-            button{
-              width: 50%;
-              font-size: 22px;
-              background: rgba(16, 143, 191);
-              color: #ffffff;
-            }
-          }
+          
           // animation-duration: 3s;
           // animation-name: slidein;
         }
@@ -54,6 +44,61 @@
           animation-iteration-count: 1;
           animation-direction: alternate;
     }
+    .apply-button{
+      display: flex;
+      justify-content: center;
+
+      button{
+        width: 50%;
+        font-size: 22px;
+        background: rgba(16, 143, 191);
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services-wrapper{
+    .services-container {
+      .row {
+        margin: 40px 0;
+        .col-md-6 {
+          margin: 10px 0;
+          .data-analytic,
+          .research-section,
+          .software_dev-section,
+          .training-section {
+           h3{
+            text-align: center;
+           }
+  
+            
+            // animation-duration: 3s;
+            // animation-name: slidein;
+          }
+
+         
+        }
+        animation-name: bounce;
+            animation-duration: 10s;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+      }
+
+      .apply-button{
+        display: flex;
+        justify-content: center;
+
+        button{
+          width: 50%;
+          font-size: 22px;
+          background: rgba(16, 143, 191);
+          color: #ffffff;
+        }
+      }
+    }
+
   }
 }
 

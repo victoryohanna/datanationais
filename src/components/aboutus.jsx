@@ -1,7 +1,7 @@
 import "../sass/about.scss";
 const About = () => {
   return (
-    <div className="wrapper" id="about-section">
+    <div className="about-wrapper" id="about-section">
     <div className="container about-container">
       <div className="header-text">
         <h1>Who Are We?</h1>
@@ -17,7 +17,7 @@ const About = () => {
       <div className="row">
         <div className="col-md-6">
         <div className="what"> 
-        <div className="">
+        <div className="title-text">
             <h3>What We Do</h3>
             </div>
           <div className="">
@@ -32,7 +32,7 @@ const About = () => {
         </div>
         <div className="col-md-6">
         <div className="how">
-            <div className="">
+            <div className="title-text">
             <h3>How We Do It</h3>
             </div>
           <div className="">
