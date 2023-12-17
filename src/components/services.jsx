@@ -29,7 +29,6 @@ const Services = () => {
                 voluptatibus ipsa ipsum error eum optio atque in veritatis
                 voluptas fuga doloremque rem distinctio illo.
               </p>
-              
             </div>
           </div>
           <div className="col-md-6">
@@ -67,7 +66,7 @@ const Services = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="training-section"> 
+            <div className="training-section">
               <h3>Training</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -75,7 +74,6 @@ const Services = () => {
                 voluptatum reiciendis fugit dicta sequi quam doloribus ab
                 corporis, nulla perferendis est aut molestias unde quo.
               </p>
-              
             </div>
           </div>
           <div className="col-md-6">
@@ -90,18 +88,18 @@ const Services = () => {
             </div>
           </div>
           <div className="apply-button">
-                <button
-                  type="button"
-                  className="btn btn-apply"
-                  data-bs-toggle="modal"
-                  data-bs-target="#regModal"
-                >
-                  Apply Now
-                </button>
-              </div>
+            <button
+              type="button"
+              className="btn btn-apply"
+              data-bs-toggle="modal"
+              data-bs-target="#regModal"
+            >
+              Apply Now
+            </button>
+          </div>
         </div>
       </div>
-      <RegisterCourse/>
+      <RegisterCourse />
     </div>
   );
 };
