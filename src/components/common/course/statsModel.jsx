@@ -1,22 +1,25 @@
-
 import { Tabs, Tab } from "react-bootstrap";
 
-  const StatisticalModel =() =>{
+const StatisticalModel = () => {
   return (
     <div className="modules">
       <div className="course-overview">
         <h4>Statistical Model Course Overview</h4>
         <p>
-          Our comprehensive hands-on step-by-step training program is here to
-          equip you with the skills you need to thrive in this ever-evolving
-          industry. You will learn industry best practices from our world class
-          experienced instructors who are passionate about sharing their
-          knowledge.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          quod, magnam nesciunt enim repellat at repellendus quis consequatur ex
+          iure in suscipit cum et, id numquam rerum. Fugit, dolores? Veritatis
+          corporis esse officiis. Dolorum, ut quo maxime laudantium quam omnis
+          nostrum est? Ipsa consequuntur nam tempora doloremque nihil enim, ut
+          praesentium quaerat velit nemo fugit dolorum officia, numquam facere
+          quos harum illo. Quaerat commodi et dolorum possimus sed eligendi,
+          quibusdam eum, quae nesciunt magnam magni obcaecati asperiores sequi!
+          Itaque aspernatur facere asperiores ex vero consectetur impedit
+          numquam omnis dignissimos ab placeat, sunt quaerat repellat optio ut,
+          iusto aliquam saepe suscipit.
         </p>
         <p>
-          Theories are important, but practice makes perfect. With us, you'll
-          work on exciting projects that simulate real-world scenarios,
-          developing robust portfolio to showcase your new found career.
+         
         </p>
         <Tabs defaultActiveKey="#1" className="mb-3">
           <Tab eventKey="#1" title="Beginner">
@@ -207,8 +210,8 @@ import { Tabs, Tab } from "react-bootstrap";
                 <div className=" pp">
                   <ul>
                     <li>
-                      Introduction to popular StatisticalModel frameworks (e.g., React,
-                      Vue.js)
+                      Introduction to popular StatisticalModel frameworks (e.g.,
+                      React, Vue.js)
                     </li>
                     <li>
                       Building components and managing state in StatisticalModel
@@ -216,8 +219,8 @@ import { Tabs, Tab } from "react-bootstrap";
                     </li>
                     <li>Introduction to component-based architecture</li>
                     <li>
-                      Working with StatisticalModel libraries and packages (e.g.,
-                      jQuery)
+                      Working with StatisticalModel libraries and packages
+                      (e.g., jQuery)
                     </li>
                     <li>
                       Introduction to module bundlers (e.g., Webpack, Parcel)

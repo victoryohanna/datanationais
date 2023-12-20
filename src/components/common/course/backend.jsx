@@ -1,22 +1,18 @@
-
 import { Tabs, Tab } from "react-bootstrap";
 
- const Backend = () => { 
+const Backend = () => {
   return (
     <div className="modules">
       <div className="course-overview">
         <h4>Backend Course Overview</h4>
         <p>
-          Our comprehensive hands-on step-by-step training program is here to
-          equip you with the skills you need to thrive in this ever-evolving
-          industry. You will learn industry best practices from our world class
-          experienced instructors who are passionate about sharing their
-          knowledge.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste neque
+          accusantium, enim soluta unde doloribus adipisci! Totam praesentium ex
+          sed voluptates quia maiores est laudantium dicta fuga explicabo, porro
+          animi!
         </p>
         <p>
-          Theories are important, but practice makes perfect. With us, you'll
-          work on exciting projects that simulate real-world scenarios,
-          developing robust portfolio to showcase your new found career.
+          
         </p>
         <Tabs defaultActiveKey="#1" className="mb-3">
           <Tab eventKey="#1" title="Beginner">
@@ -216,8 +212,7 @@ import { Tabs, Tab } from "react-bootstrap";
                     </li>
                     <li>Introduction to component-based architecture</li>
                     <li>
-                      Working with Backend libraries and packages (e.g.,
-                      jQuery)
+                      Working with Backend libraries and packages (e.g., jQuery)
                     </li>
                     <li>
                       Introduction to module bundlers (e.g., Webpack, Parcel)

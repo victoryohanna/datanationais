@@ -7,11 +7,7 @@ import { Tabs, Tab } from "react-bootstrap";
       <div className="course-overview">
         <h4>FullStack Course Overview</h4>
         <p>
-          Our comprehensive hands-on step-by-step training program is here to
-          equip you with the skills you need to thrive in this ever-evolving
-          industry. You will learn industry best practices from our world class
-          experienced instructors who are passionate about sharing their
-          knowledge.
+          
         </p>
         <p>
           Theories are important, but practice makes perfect. With us, you'll
