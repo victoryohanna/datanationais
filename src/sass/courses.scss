@@ -39,11 +39,29 @@
               font-size: 17px;
               font-weight: 600;
             }
-            ul {
-              li {
-                font-size: 17px;
+            hr{
+              margin-bottom: 0;
+            }
+            ul{
+          
+              padding: 5px;
+
+              li{
                 list-style: none;
-                line-height: 40px;
+                margin-bottom: 10px ;
+
+                button{
+                  width: 100%;
+                  text-align: left;
+                  border: none;
+                  font-size: 17px;
+                  padding: 10px 0;
+                  background: #ffffff;
+                }
+
+                :hover{
+                  opacity: 0.5;
+                }
               }
             }
           }
@@ -112,6 +130,7 @@
                 font-weight: 600;
               }
               ul {
+                
                 li {
                   font-size: 17px;
                   list-style: none;

@@ -53,10 +53,10 @@ const Courses = () => {
                 <span>Duration : 8 weeks</span>
               </div>
               <div className="courses">
-                <h4>Course List</h4>
-                <span>Data Analytics</span>
-                <ul>
-                  <li>
+                {/* <h4>Course List</h4> */}
+                <span>Data Analytics</span> <hr />
+                <ul >
+                  <li >
                     <button type="button" onClick={renderStatModel}>
                       Statistical Modelling
                     </button>
@@ -74,27 +74,25 @@ const Courses = () => {
                     </button>
                   </li>
                 </ul>
-                <span>Web Development</span>
+                <span>Web Development</span> <hr />
                 <ul>
                   <li>
-                    <button type="button" onClick={renderFrontend}>
+                    <button type="button" className="bt" onClick={renderFrontend}>
                       Frontend
                     </button>
                   </li>
-
                   <li>
                     <button type="button" onClick={renderBackend}>
                       Backend
                     </button>
                   </li>
-
                   <li>
                     <button type="button" onClick={renderFullstack}>
                       Full-Stack
                     </button>
                   </li>
                 </ul>
-                <span>Android & IOS Application</span>
+                {/* <span>Android & IOS Application</span> */}
                 <ul>
                   <li></li>
                   <li></li>
