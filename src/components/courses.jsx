@@ -39,8 +39,10 @@ const Courses = () => {
                   <Link to="/">
                     <li>Frontend</li>
                   </Link>
-                  <Link to="/"> Backend</Link>
-                  <Link to="/"> Full-Stack</Link>
+                  <Link to="/"> 
+                  <li>Backend</li>
+                  </Link>
+                  <Link to="/"> <li>Full-Stack</li></Link>
                 </ul>
                 <span>Android & IOS Application</span>
                 <ul>

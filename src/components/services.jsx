@@ -1,6 +1,5 @@
 import "../sass/services.scss";
-import { Link } from "react-scroll";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import RegisterCourse from "./register";
 
 const Services = () => {
@@ -9,6 +8,7 @@ const Services = () => {
   const navigation = () => {
     navigate("/register");
   };
+  
   return (
     <div className="services-wrapper" id="services-section">
       <div className="container services-container">
@@ -21,7 +21,9 @@ const Services = () => {
         </div>
         <div className="row">
           <div className="col-md-6">
+            
             <div className="data-analytic">
+            <Link to="/">
               <h3>Data Analytics</h3>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -29,10 +31,13 @@ const Services = () => {
                 voluptatibus ipsa ipsum error eum optio atque in veritatis
                 voluptas fuga doloremque rem distinctio illo.
               </p>
+              </Link>
             </div>
+            
           </div>
           <div className="col-md-6">
             <div className="research-section">
+              <Link to="/">
               <h3>Business Intelligence</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
@@ -40,10 +45,12 @@ const Services = () => {
                 praesentium neque eius quam, itaque veniam illo cum vitae quo
                 quae.
               </p>
+              </Link>
             </div>
           </div>
           <div className="col-md-6">
             <div className="research-section">
+              <Link to="/">
               <h3>Academic Research</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
@@ -51,10 +58,12 @@ const Services = () => {
                 praesentium neque eius quam, itaque veniam illo cum vitae quo
                 quae.
               </p>
+              </Link>
             </div>
           </div>
           <div className="col-md-6">
             <div className="software_dev-section">
+              <Link to="/">
               <h3>Software Development</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -63,10 +72,12 @@ const Services = () => {
                 cupiditate voluptate quos aperiam voluptates. Cupiditate,
                 voluptatum.
               </p>
+              </Link>
             </div>
           </div>
           <div className="col-md-6">
             <div className="training-section">
+              <Link to="/">
               <h3>Training</h3>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -74,10 +85,12 @@ const Services = () => {
                 voluptatum reiciendis fugit dicta sequi quam doloribus ab
                 corporis, nulla perferendis est aut molestias unde quo.
               </p>
+              </Link>
             </div>
           </div>
           <div className="col-md-6">
             <div className="research-section">
+              <Link to="/">
               <h3>Consultancy</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
@@ -85,6 +98,7 @@ const Services = () => {
                 praesentium neque eius quam, itaque veniam illo cum vitae quo
                 quae.
               </p>
+              </Link>
             </div>
           </div>
           <div className="apply-button">
