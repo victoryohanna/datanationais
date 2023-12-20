@@ -16,11 +16,15 @@
 
   .container {
     .row {
-      .col-md-3 {
+      .col-md-4 {
+        h4,
+        h5 {
+          font-weight: 700;
+        }
         ul {
           display: inline-block;
           line-height: 35px;
-          // font-size: 14px;
+          font-size: 18px;
 
           li {
             list-style: none;
@@ -35,6 +39,15 @@
             color: #222121;
             font-weight: 400;
           }
+        }
+      }
+
+      .col-md-8 {
+        font-size: 18px;
+
+        h4,
+        h5 {
+          font-weight: 700;
         }
       }
     }

@@ -12,7 +12,7 @@ const Footer = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-md-3 quick-links">
+          <div className="col-md-4">
             <h4>Our Services</h4>
             <hr />
             <ul>
@@ -36,7 +36,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-3 quick-links">
+          {/* <div className="col-md-3 quick-links">
             <h4>Quick Links</h4>
             <hr />
             <ul>
@@ -57,8 +57,8 @@ const Footer = () => {
               </li>
               
             </ul>
-          </div>
-          <div className="col-md-6 ">
+          </div> */}
+          <div className="col-md-8 ">
             <div className="foot-note">
               <div className="d-flex ">
                 <h4>Vision & Mission</h4>
