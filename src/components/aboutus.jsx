@@ -26,6 +26,10 @@ const About = () => {
             cupiditate. Maxime qui enim aperiam unde quas maiores dignissimos,
             perspiciatis debitis laudantium aspernatur eaque blanditiis eos
             sunt? Corrupti eligendi molestias odio.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+            cupiditate. Maxime qui enim aperiam unde quas maiores dignissimos,
+            perspiciatis debitis laudantium aspernatur eaque blanditiis eos
+            sunt? Corrupti eligendi molestias odio.
           </p>
           </div>
         </div>
@@ -41,6 +45,10 @@ const About = () => {
             odio ipsum doloribus perferendis numquam cupiditate consectetur
             voluptate, beatae, atque, aut eum quod exercitationem eligendi
             eveniet! Aliquid itaque similique dicta autem!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+            cupiditate. Maxime qui enim aperiam unde quas maiores dignissimos,
+            perspiciatis debitis laudantium aspernatur eaque blanditiis eos
+            sunt? Corrupti eligendi molestias odio.
           </p>
           </div>
         </div>

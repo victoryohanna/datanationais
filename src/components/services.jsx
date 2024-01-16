@@ -21,7 +21,6 @@ const Services = () => {
         </div>
         <div className="row">
           <div className="col-md-6">
-            
             <div className="data-analytic">
             <Link to="/">
               <h3>Data Analytics</h3>

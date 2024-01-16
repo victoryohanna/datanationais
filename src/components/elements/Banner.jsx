@@ -15,9 +15,6 @@ const Banner = () => {
           data strategy, developing roadmaps for data-driven transformation.
         </p>
       </div>
-      {/* <div className="link-section">
-        <Link to="/">Learn more</Link>
-      </div> */}
     </div>
   );
 };
