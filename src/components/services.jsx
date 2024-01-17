@@ -1,14 +1,8 @@
 import "../sass/services.scss";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import RegisterCourse from "./register";
 
 const Services = () => {
-  const navigate = useNavigate();
-
-  const navigation = () => {
-    navigate("/register");
-  };
-  
   return (
     <div className="services-wrapper" id="services-section">
       <div className="container services-container">
@@ -22,85 +16,84 @@ const Services = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="data-analytic">
-            <Link to="/">
-              <h3>Data Analytics</h3>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi, perspiciatis placeat consectetur deserunt quae quos
-                voluptatibus ipsa ipsum error eum optio atque in veritatis
-                voluptas fuga doloremque rem distinctio illo.
-              </p>
-              </Link>
-            </div>
-            
-          </div>
-          <div className="col-md-6">
-            <div className="research-section">
-              <Link to="/">
-              <h3>Business Intelligence</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                error non quae alias veniam ullam quod asperiores dolor! Ipsum
-                praesentium neque eius quam, itaque veniam illo cum vitae quo
-                quae.
-              </p>
+              <Link to="/data-analytics">
+                <h3>Data Analytics</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi, perspiciatis placeat consectetur deserunt quae quos
+                  voluptatibus ipsa ipsum error eum optio atque in veritatis
+                  voluptas fuga doloremque rem distinctio illo.
+                </p>
               </Link>
             </div>
           </div>
           <div className="col-md-6">
             <div className="research-section">
-              <Link to="/">
-              <h3>Academic Research</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                error non quae alias veniam ullam quod asperiores dolor! Ipsum
-                praesentium neque eius quam, itaque veniam illo cum vitae quo
-                quae.
-              </p>
+              <Link to="/business-intelligence">
+                <h3>Business Intelligence</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  error non quae alias veniam ullam quod asperiores dolor! Ipsum
+                  praesentium neque eius quam, itaque veniam illo cum vitae quo
+                  quae.
+                </p>
+              </Link>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="research-section">
+              <Link to="/research">
+                <h3>Academic Research</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  error non quae alias veniam ullam quod asperiores dolor! Ipsum
+                  praesentium neque eius quam, itaque veniam illo cum vitae quo
+                  quae.
+                </p>
               </Link>
             </div>
           </div>
           <div className="col-md-6">
             <div className="software_dev-section">
-              <Link to="/">
-              <h3>Software Development</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi blanditiis, repellat, dicta id veniam illo excepturi
-                enim pariatur vel accusantium, voluptatum asperiores? Sit
-                cupiditate voluptate quos aperiam voluptates. Cupiditate,
-                voluptatum.
-              </p>
+              <Link to="/web-design">
+                <h3>Software Development</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi blanditiis, repellat, dicta id veniam illo excepturi
+                  enim pariatur vel accusantium, voluptatum asperiores? Sit
+                  cupiditate voluptate quos aperiam voluptates. Cupiditate,
+                  voluptatum.
+                </p>
               </Link>
             </div>
           </div>
           <div className="col-md-6">
             <div className="training-section">
-              <Link to="/">
-              <h3>Training</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Numquam praesentium atque dignissimos ipsum temporibus
-                voluptatum reiciendis fugit dicta sequi quam doloribus ab
-                corporis, nulla perferendis est aut molestias unde quo.
-              </p>
+              <Link to="/training">
+                <h3>Training</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Numquam praesentium atque dignissimos ipsum temporibus
+                  voluptatum reiciendis fugit dicta sequi quam doloribus ab
+                  corporis, nulla perferendis est aut molestias unde quo.
+                </p>
               </Link>
             </div>
           </div>
           <div className="col-md-6">
             <div className="research-section">
-              <Link to="/">
-              <h3>Consultancy</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                error non quae alias veniam ullam quod asperiores dolor! Ipsum
-                praesentium neque eius quam, itaque veniam illo cum vitae quo
-                quae.
-              </p>
+              <Link to="/consultancy">
+                <h3>Consultancy</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                  error non quae alias veniam ullam quod asperiores dolor! Ipsum
+                  praesentium neque eius quam, itaque veniam illo cum vitae quo
+                  quae.
+                </p>
               </Link>
             </div>
           </div>
-          <div className="apply-button">
+          {/* <div className="apply-button">
             <button
               type="button"
               className="btn btn-apply"
@@ -109,7 +102,7 @@ const Services = () => {
             >
               Apply Now
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
       <RegisterCourse />
