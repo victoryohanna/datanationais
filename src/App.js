@@ -1,22 +1,36 @@
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar";  
+import {
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  Outlet,
+} from "react-router-dom";
+import Navbar from "./components/navbar";
 import Home from "./pages/home";
 import Footer from "./components/footer";
-// import Courses from "./components/courses";
 
-function App() {
+export default function App() {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<Root />}>
+        <Route index element={<Home/>}/>
+      </Route>)
+  );
+
   return (
     <div className="App">
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        {/* <Route path="/register" element={<RegisterCourse/>}/> */}
-      </Routes>
-      
-      <Footer/>
+      <RouterProvider router={router}/>
     </div>
-
   );
 }
 
-export default App;
+const Root = () => {
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+      <Footer/>
+    </>
+  );
+};
+
