@@ -4,6 +4,7 @@ import {
   createRoutesFromElements,
   Route,
   Outlet,
+  // useParams,
 } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
