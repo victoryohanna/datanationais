@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import "../sass/courses.scss";
 
@@ -55,8 +55,8 @@ const Courses = () => {
               <div className="courses">
                 {/* <h4>Course List</h4> */}
                 <span>Data Analytics</span> <hr />
-                <ul >
-                  <li >
+                <ul>
+                  <li>
                     <button type="button" onClick={renderStatModel}>
                       Statistical Modelling
                     </button>
@@ -77,7 +77,11 @@ const Courses = () => {
                 <span>Web Development</span> <hr />
                 <ul>
                   <li>
-                    <button type="button" className="bt" onClick={renderFrontend}>
+                    <button
+                      type="button"
+                      className="bt"
+                      onClick={renderFrontend}
+                    >
                       Frontend
                     </button>
                   </li>
@@ -107,14 +111,14 @@ const Courses = () => {
                 <Backend />
               ) : component === "fullstack" ? (
                 <FullStack />
-              ) :component === "stats-model" ? (
+              ) : component === "stats-model" ? (
                 <StatisticalModel />
-              ): component === "stats-packages" ? (
+              ) : component === "stats-packages" ? (
                 <StatisticalPackages />
-              ): component === "r-python" ? (
+              ) : component === "r-python" ? (
                 <RPython />
-              ): (
-                <Frontend />
+              ) : (
+                <StatisticalModel />
               )}
             </div>
           </div>
