@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-body">
           <div className="container-fluid  ">
             <div className="navbar-brand">
-              <img src={brand} alt="brand" style={{width:"250px"}} />
+              <img src={brand} alt="brand" style={{ width: "250px" }} />
             </div>
             <button
               className="navbar-toggler"
@@ -28,6 +28,17 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav">
+                {/* <li className="nav-item">
+                  <Link
+                    to="/"
+                    className="nav-link "
+                    aria-current="page"
+                    activeClass="active"
+                    
+                  >
+                    Home
+                  </Link>
+                </li> */}
                 <li className="nav-item">
                   <Link
                     to="hero-section"
@@ -38,6 +49,7 @@ const Navbar = () => {
                     smooth={true}
                     offset={-90}
                     duration={500}
+                    
                   >
                     Home
                   </Link>
