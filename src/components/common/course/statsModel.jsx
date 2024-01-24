@@ -6,21 +6,15 @@ const StatisticalModel = () => {
       <div className="course-overview">
         <h4>Statistical Model Course Overview</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          quod, magnam nesciunt enim repellat at repellendus quis consequatur ex
-          iure in suscipit cum et, id numquam rerum. Fugit, dolores? Veritatis
-          corporis esse officiis. Dolorum, ut quo maxime laudantium quam omnis
-          nostrum est? Ipsa consequuntur nam tempora doloremque nihil enim, ut
-          praesentium quaerat velit nemo fugit dolorum officia, numquam facere
-          quos harum illo. Quaerat commodi et dolorum possimus sed eligendi,
-          quibusdam eum, quae nesciunt magnam magni obcaecati asperiores sequi!
-          Itaque aspernatur facere asperiores ex vero consectetur impedit
-          numquam omnis dignissimos ab placeat, sunt quaerat repellat optio ut,
-          iusto aliquam saepe suscipit.
+          Welcome to the world of Applied Statistical Modeling! This course is
+          designed to equip you with the essential skills and knowledge needed
+          to analyze data, draw meaningful insights, and make informed decisions
+          using statistical models. Whether you're a novice seeking an
+          introduction to statistical concepts or a seasoned professional
+          looking to enhance your modeling expertise, this course is tailored to
+          cater to a diverse audience.
         </p>
-        <p>
-         
-        </p>
+        <p></p>
         <Tabs defaultActiveKey="#1" className="mb-3">
           <Tab eventKey="#1" title="Beginner">
             <div className="collapse-section1">
@@ -33,19 +27,16 @@ const StatisticalModel = () => {
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  Introduction to Web Development
+                  Foundations of Statistics
                 </button>
               </p>
               <div className="collapse" id="collapse1">
                 <div className=" pp">
                   <ul>
-                    <li>What is web development?</li>
-                    <li>Overview of front-end vs back-end development</li>
-                    <li>Introduction to HTML, CSS, and JavaScript</li>
-                    <li>
-                      Setting up a development environment (text editor,
-                      browser, etc.)
-                    </li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                   </ul>
                 </div>
               </div>
@@ -60,16 +51,16 @@ const StatisticalModel = () => {
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  HTML Fundamentals
+                  Regression Analysis
                 </button>
               </p>
               <div className="collapse" id="collapse2">
                 <div className=" pp">
                   <ul>
-                    <li>Understanding the structure of an HTML document</li>
-                    <li>HTML tags and elements</li>
-                    <li>Text formatting and basic styling with CSS</li>
-                    <li>Creating hyperlinks and navigation</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
                   </ul>
                 </div>
               </div>
@@ -84,17 +75,17 @@ const StatisticalModel = () => {
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  CSS Styling
+                  Time Series Analysis
                 </button>
               </p>
               <div className="collapse" id="collapse3">
                 <div className=" pp">
                   <ul>
-                    <li>Introduction to CSS syntax and selectors</li>
-                    <li>Applying styles to HTML elements</li>
-                    <li>Cascading and inheritance</li>
-                    <li>Layout and positioning techniques</li>
-                    <li>Working with responsive design and media queries</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
                   </ul>
                 </div>
               </div>
@@ -109,19 +100,17 @@ const StatisticalModel = () => {
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  JavaScript Basics
+                  Hypothesis Testing
                 </button>
               </p>
               <div className="collapse" id="collapse4">
                 <div className=" pp">
                   <ul>
-                    <li>
-                      Introduction to JavaScript and its role in web development
-                    </li>
-                    <li>Variables, data types, and operators</li>
-                    <li>Conditional statements and loops</li>
-                    <li>Functions and scope</li>
-                    <li>DOM manipulation and event handling</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                   </ul>
                 </div>
               </div>
@@ -138,26 +127,17 @@ const StatisticalModel = () => {
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  Advanced HTML and CSS
+                  Classification and Clustering
                 </button>
               </p>
               <div className="collapse" id="collapse1">
                 <div className=" pp">
                   <ul>
-                    <li>Semantic HTML5 elements and their significance</li>
-                    <li>
-                      Working with forms, input validation, and HTML5 APIs
-                    </li>
-                    <li>
-                      CSS preprocessors (e.g., SASS, LESS) and their features
-                    </li>
-                    <li>
-                      CSS frameworks (e.g., Bootstrap, Foundation) and their
-                      usage
-                    </li>
-                    <li>
-                      Introduction to CSS grid and flexbox for modern layouts
-                    </li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                   </ul>
                 </div>
               </div>
@@ -172,23 +152,17 @@ const StatisticalModel = () => {
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  JavaScript and the Browser
+                  Model Evaluation and Validation
                 </button>
               </p>
               <div className="collapse" id="collapse2">
                 <div className=" pp">
                   <ul>
-                    <li>
-                      The Document Object Model (DOM) and its relationship with
-                      JavaScript
-                    </li>
-                    <li>Accessing and manipulating DOM elements dynamically</li>
-                    <li>Handling events and event delegation</li>
-                    <li>
-                      Asynchronous programming with callbacks, promises, and
-                      async/await
-                    </li>
-                    <li>Introduction to AJAX and working with JSON data</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                   </ul>
                 </div>
               </div>
@@ -203,29 +177,17 @@ const StatisticalModel = () => {
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  StatisticalModel Frameworks and Libraries
+                  Statistical Model Frameworks and Libraries
                 </button>
               </p>
               <div className="collapse" id="collapse3">
                 <div className=" pp">
                   <ul>
-                    <li>
-                      Introduction to popular StatisticalModel frameworks (e.g.,
-                      React, Vue.js)
-                    </li>
-                    <li>
-                      Building components and managing state in StatisticalModel
-                      frameworks
-                    </li>
-                    <li>Introduction to component-based architecture</li>
-                    <li>
-                      Working with StatisticalModel libraries and packages
-                      (e.g., jQuery)
-                    </li>
-                    <li>
-                      Introduction to module bundlers (e.g., Webpack, Parcel)
-                      and task runners (e.g., Gulp, Grunt)
-                    </li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                   </ul>
                 </div>
               </div>
@@ -240,25 +202,17 @@ const StatisticalModel = () => {
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  Web Application Deployment and Optimization
+                  Introduction to Bayesian Statistics
                 </button>
               </p>
               <div className="collapse" id="collapse4">
                 <div className=" pp">
                   <ul>
-                    <li>Overview of web hosting and deployment options</li>
-                    <li>
-                      Version control with Git and collaboration workflows
-                      (e.g., GitHub)
-                    </li>
-                    <li>
-                      Optimizing StatisticalModel assets (e.g., minification,
-                      concatenation)
-                    </li>
-                    <li>
-                      Introduction to caching, CDNs, and performance
-                      optimization strategies
-                    </li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                   </ul>
                 </div>
               </div>
