@@ -42,7 +42,7 @@ const About = () => {
                   set new benchmarks in DataNationIAS. Our passion for
                   innovation and dedication to customer satisfaction drive
                   everything we do. In a crowded market, what distinguishes us
-                  is our unwavering commitment to quality services.
+                  is our unwavering commitment to quality service.
                 </p>
               </div>
             </div>
