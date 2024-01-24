@@ -56,7 +56,6 @@
 
 @media screen and (max-width: 990px) {
   .about-wrapper {
-    
     .about-container {
       .header-text {
         
@@ -70,7 +69,7 @@
       }
       .who {
         width: 100%;
-        text-align: justify;
+        text-align: center;
         p {
           font-size: 18px;
           font-weight: 400;
@@ -82,7 +81,7 @@
           .what,
           .how {
             height: auto;
-            text-align: justify;
+            text-align: center;
           }
         }
       }
