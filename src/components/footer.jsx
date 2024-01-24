@@ -67,16 +67,16 @@ const Footer = () => {
               <div className="vission_section">
                 <h5>Vision Statement</h5>
                 <p>
-                  “To empower students and professionals globally with the
+                  To empower students and professionals globally with the
                   necessary resources and guidance to succeed in their
                   educational and professional pursuits, and to be the leading
-                  provider of end-to-end study abroad and immigration services.”
+                  provider of end-to-end study abroad and immigration services.
                 </p>
               </div>
               <div className="mission_section">
                 <h5>Mission Statement</h5>
                 <p>
-                  “Our mission is to facilitate and streamline the study abroad
+                  Our mission is to facilitate and streamline the study abroad
                   and immigration process for our clients, from exam
                   registration to visa processing and beyond. We aim to provide
                   high-quality services and resources that enable students to
@@ -85,7 +85,7 @@ const Footer = () => {
                   excellence. We are dedicated to making the study abroad
                   experience accessible to all, regardless of background or
                   circumstance, and to fostering a culture of diversity,
-                  inclusivity, and global citizenship.”
+                  inclusivity, and global citizenship.
                 </p>
               </div>
             </div>
