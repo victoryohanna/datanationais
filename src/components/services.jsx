@@ -1,6 +1,6 @@
 import "../sass/services.scss";
 import { Link } from "react-router-dom";
-
+import RegisterCourse from "./register";
 
 const Services = () => {
   return (
@@ -10,14 +10,14 @@ const Services = () => {
           <h1>Our Services</h1>
           <span>
             At DataNationIAS, we understand that navigating the complexities of
-            today's business landscape requires more than just expertise; we are here to provide 
-            strategic insight and innovation in the following fields:
+            today's business landscape requires more than just expertise; we are
+            here to provide strategic insight and innovation in the following
+            fields:
           </span>
         </div>
         <div className="row">
           <div className="col-md-6">
             <div className="data-analytic">
-              {/* <Link to="/data-analytics"> */}
               <h3>Data Analytics</h3>
               <p>
                 Leverage the full potential of your data through our advanced
@@ -26,7 +26,8 @@ const Services = () => {
                 insightful visuals that drive strategic decision-making.
               </p>
               <div className="d-flex justify-content-center">
-                <Link to="/">
+                {/* <Link to="/"> */}
+                <Link to="/data-analytics">
                   <h5>Read More...</h5>
                 </Link>
               </div>
@@ -116,6 +117,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+        <RegisterCourse/>
       </div>
     </div>
   );
