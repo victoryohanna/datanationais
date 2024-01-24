@@ -2,59 +2,53 @@ import "../sass/about.scss";
 const About = () => {
   return (
     <div className="about-wrapper" id="about-section">
-    <div className="container about-container">
-      <div className="header-text">
-        <h1>Who Are We?</h1>
-      </div>
-      <div className="who">
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque,
-          architecto officia porro rerum exercitationem iste in fugit ut
-          voluptatibus a cum quasi nulla sed. Consequuntur vel eligendi magni
-          ducimus laboriosam.
-        </p>
-      </div>
-      <div className="row">
-        <div className="col-md-6">
-        <div className="what"> 
-        <div className="title-text">
-            <h3>What We Do</h3>
-            </div>
-          <div className="">
+      <div className="container about-container">
+        <div className="header-text">
+          <h1>Who Are We?</h1>
+        </div>
+        <div className="who">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-            cupiditate. Maxime qui enim aperiam unde quas maiores dignissimos,
-            perspiciatis debitis laudantium aspernatur eaque blanditiis eos
-            sunt? Corrupti eligendi molestias odio.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-            cupiditate. Maxime qui enim aperiam unde quas maiores dignissimos,
-            perspiciatis debitis laudantium aspernatur eaque blanditiis eos
-            sunt? Corrupti eligendi molestias odio.
+            We are a dynamic team of professionals, each committed to delivering
+            exceptional results in DataNationIAS. From our skilled artisans to
+            our visionary leaders, everyone at DataNationIAS shares a common
+            goal - to exceed your expectations.
           </p>
+        </div>
+        <div className="row">
+          <div className="col-md-6">
+            <div className="what">
+              <div className="title-text">
+                <h3>What We Do</h3>
+              </div>
+              <div className="">
+                <p>
+                  At DataNationIAS, we are on a mission to revolutionize the way
+                  businesses harness the power of data. Established in 2020,
+                  DataNationIAS is driven by a passion for innovation, a
+                  commitment to excellence, and a vision to transform raw data
+                  into actionable insights.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="how">
+              <div className="title-text">
+                <h3>How We Do It</h3>
+              </div>
+              <div className="">
+                <p>
+                  We have been on a relentless journey to redefine standards and
+                  set new benchmarks in DataNationIAS. Our passion for
+                  innovation and dedication to customer satisfaction drive
+                  everything we do. In a crowded market, what distinguishes us
+                  is our unwavering commitment to quality services.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        </div>
-        <div className="col-md-6"> 
-        <div className="how">
-            <div className="title-text">
-            <h3>How We Do It</h3>
-            </div>
-          <div className="">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            odio ipsum doloribus perferendis numquam cupiditate consectetur
-            voluptate, beatae, atque, aut eum quod exercitationem eligendi
-            eveniet! Aliquid itaque similique dicta autem!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-            cupiditate. Maxime qui enim aperiam unde quas maiores dignissimos,
-            perspiciatis debitis laudantium aspernatur eaque blanditiis eos
-            sunt? Corrupti eligendi molestias odio.
-          </p>
-          </div>
-        </div>
-        </div>
       </div>
-    </div>
     </div>
   );
 };
