@@ -113,7 +113,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright d-flex justify-content-center">
-        <span>&copy; Copyright 2023 All Rights Reserved</span>
+        <span>&copy; Copyright 2024 All Rights Reserved</span>
       </div>
     </div>
   );
