@@ -10,9 +10,9 @@ const ContactUs = () => {
         <div className="header-text">
           <h1>Contact Us</h1>
           <span>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt,
+            {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt,
             ipsa laboriosam? Sed aliquam reiciendis eligendi animi nam alias
-            doloremque modi!
+            doloremque modi! */}
           </span>
         </div>
         <div className="row">
