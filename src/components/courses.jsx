@@ -6,9 +6,13 @@ import "../sass/courses.scss";
 import Frontend from "./common/course/frontend";
 import Backend from "./common/course/backend";
 import FullStack from "./common/course/fullstack";
-import RPython from "./common/course/pythonr";
-import StatisticalModel from "./common/course/statsModel";
-import StatisticalPackages from "./common/course/statsPakages";
+import Python from "./common/course/pythonr";
+import Excel from "./common/course/excel";
+import RProgramming from "./common/course/rProgramming";
+import Tableau from "./common/course/tableau";
+import Spss from "./common/course/spss";
+import Sql from "./common/course/sql";
+import PowerBI from "./common/course/powerBI";
 
 const Courses = () => {
   const [component, setComponent] = useState("");
@@ -25,16 +29,28 @@ const Courses = () => {
     setComponent("fullstack");
   };
 
-  const renderStatModel = () => {
-    setComponent("stats-model");
+  const renderExcel = () => {
+    setComponent("excel");
+  };
+  const renderPowerBI = () => {
+    setComponent("PowerBI");
+  };
+  const renderSql = () => {
+    setComponent("sql");
+  };
+  const renderSpss = () => {
+    setComponent("spss");
+  };
+  const renderTableau = () => {
+    setComponent("tableau");
   };
 
-  const renderStatPackages = () => {
-    setComponent("stats-packages");
+  const renderRProgramming = () => {
+    setComponent("rProgramming");
   };
 
   const renderRPython = () => {
-    setComponent("r-python");
+    setComponent("python");
   };
 
   return (
@@ -57,24 +73,42 @@ const Courses = () => {
                 <span>Data Analytics</span> <hr />
                 <ul>
                   <li>
-                    <button type="button" onClick={renderStatModel}>
-                      Statistical Modelling
+                    <button type="button" onClick={renderExcel}>
+                      Excel for Data Analysis
                     </button>
                   </li>
-
                   <li>
-                    <button type="button" onClick={renderStatPackages}>
-                      Statistical Packages
+                    <button type="button" onClick={renderSpss}>
+                      SPSS for Data Analysis
                     </button>
                   </li>
-
+                  <li>
+                    <button type="button" onClick={renderRProgramming}>
+                      R programming for Data Analysis
+                    </button>
+                  </li>
                   <li>
                     <button type="button" onClick={renderRPython}>
-                      R & Python Programming
+                      Python programming for Data Analysis
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" onClick={renderPowerBI}>
+                      Power BI for Data Visualization
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" onClick={renderTableau}>
+                      Taleau for Data Visualization
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" onClick={renderSql}>
+                      Structured Query Language
                     </button>
                   </li>
                 </ul>
-                <span>Web Development</span> <hr />
+                <span>Web Design & Development</span> <hr />
                 <ul>
                   <li>
                     <button
@@ -111,14 +145,22 @@ const Courses = () => {
                 <Backend />
               ) : component === "fullstack" ? (
                 <FullStack />
-              ) : component === "stats-model" ? (
-                <StatisticalModel />
-              ) : component === "stats-packages" ? (
-                <StatisticalPackages />
-              ) : component === "r-python" ? (
-                <RPython />
+              ) : component === "excel" ? (
+                <Excel />
+              ) : component === "spss" ? (
+                <Spss />
+              ) : component === "tableau" ? (
+                <Tableau />
+              ) : component === "sql" ? (
+                <Sql />
+              ) : component === "PowerBI" ? (
+                <PowerBI />
+              ) : component === "rProgramming" ? (
+                <RProgramming />
+              ) : component === "python" ? (
+                <Python />
               ) : (
-                <StatisticalModel />
+                <Excel />
               )}
             </div>
           </div>

@@ -1,18 +1,18 @@
 import { Tabs, Tab } from "react-bootstrap";
 
-const StatisticalPackages = () => {
+const RProgramming = () => {
   return (
     <div className="modules">
       <div className="course-overview">
-        <h4>Statistical Packages Course Overview</h4>
-        <p>
+        <h5>R FOR DATA ANALYSIS</h5>
+        {/* <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
           commodi a blanditiis veniam debitis voluptas, cumque iusto maxime?
           Cumque, numquam?
-        </p>
+        </p> */}
         <p></p>
         <Tabs defaultActiveKey="#1" className="mb-3">
-          <Tab eventKey="#1" title="Beginner">
+          <Tab eventKey="#1" title="Beginner Level">
             <div className="collapse-section1">
               <p>
                 <button
@@ -23,19 +23,20 @@ const StatisticalPackages = () => {
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  Introduction to Web Development
+                  <b>Module 1: Introduction to R for Data Analysis</b>
                 </button>
               </p>
               <div className="collapse" id="collapse1">
                 <div className=" pp">
+                  <h4>1.1 Overview of R Language</h4>
                   <ul>
-                    <li>What is web development?</li>
-                    <li>Overview of front-end vs back-end development</li>
-                    <li>Introduction to HTML, CSS, and JavaScript</li>
-                    <li>
-                      Setting up a development environment (text editor,
-                      browser, etc.)
-                    </li>
+                    <li>History and Background</li>
+                    <li>Applications in Data Analysis</li>
+                  </ul>
+                  <h4>1.2 Setting Up the R Environment</h4>
+                  <ul>
+                    <li>Installing R and RStudio</li>
+                    <li>Basic RStudio Interface</li>
                   </ul>
                 </div>
               </div>
@@ -260,4 +261,4 @@ const StatisticalPackages = () => {
   );
 };
 
-export default StatisticalPackages;
+export default RProgramming;

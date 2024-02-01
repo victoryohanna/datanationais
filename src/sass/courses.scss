@@ -1,7 +1,6 @@
 .courses-wrapper {
-    background: #f1f1f1;
+  background: #f1f1f1;
   padding: 20px 0;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 
   .courses-container {
     .header-text {
@@ -11,7 +10,7 @@
       h1 {
         font-weight: 700;
         margin-bottom: 20px;
-      } 
+      }
     }
 
     .course-body {
@@ -39,17 +38,16 @@
               font-size: 17px;
               font-weight: 600;
             }
-            hr{
+            hr {
               margin-bottom: 0;
             }
-            ul{
-              
+            ul {
               padding: 5px;
 
-              li{
+              li {
                 list-style: none;
-                margin-bottom: 5px ;
-                button{
+                margin-bottom: 15px;
+                button {
                   width: 100%;
                   text-align: left;
                   border: none;
@@ -58,7 +56,7 @@
                   background: #ffffff;
                 }
 
-                :hover{
+                :hover {
                   opacity: 0.5;
                 }
               }
@@ -73,25 +71,25 @@
             -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
             box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
 
-            .course-overview{
-                p{
-                    font-size: 20px;
-                }
+            .course-overview {
+              p {
+                font-size: 20px;
+              }
 
-                .btn-collapse{
-                    border: 1px solid #f2f2f2;
-                    background: #f2f2f2;
-                    width: 100%;
-                    text-align: left;
-                    padding: 8px 4px;
-                    font-size: 22px;
-                }
+              .btn-collapse {
+                border: 1px solid #f2f2f2;
+                background: #f2f2f2;
+                width: 100%;
+                text-align: left;
+                padding: 8px 4px;
+                font-size: 22px;
+              }
 
-                .collapse{
-                    .pp{
-                        font-size: 18px;
-                    }
+              .collapse {
+                .pp {
+                  font-size: 18px;
                 }
+              }
             }
           }
         }
@@ -100,12 +98,12 @@
   }
 }
 
-@media screen and (max-width: 768px){
-  .courses-wrapper{
-    .courses-container{
+@media screen and (max-width: 768px) {
+  .courses-wrapper {
+    .courses-container {
       .course-body {
         padding: 10px;
-  
+
         .row {
           .col-md-4 {
             .shedules {
@@ -113,12 +111,12 @@
               background: #ffffff;
               -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
               box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
-  
+
               span {
                 font-size: 17px;
               }
             }
-  
+
             .courses {
               background: #ffffff;
               padding: 15px;
@@ -129,7 +127,6 @@
                 font-weight: 600;
               }
               ul {
-                
                 li {
                   font-size: 17px;
                   list-style: none;
@@ -138,28 +135,28 @@
               }
             }
           }
-  
+
           .col-md-8 {
             .modules {
               background: #ffffff;
               padding: 15px;
               -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
               box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
-  
-              .course-overview{
-                  p{
-                      font-size: 16px;
+
+              .course-overview {
+                p {
+                  font-size: 16px;
+                }
+
+                .btn-collapse {
+                  font-size: 18px;
+                }
+
+                .collapse {
+                  .pp {
+                    font-size: 16px;
                   }
-  
-                  .btn-collapse{
-                      font-size: 18px;
-                  }
-  
-                  .collapse{
-                      .pp{
-                          font-size: 16px;
-                      }
-                  }
+                }
               }
             }
           }

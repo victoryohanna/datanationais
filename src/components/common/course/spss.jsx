@@ -1,11 +1,11 @@
 import { Tabs, Tab } from "react-bootstrap";
 
-const StatisticalModel = () => {
+const Spss = () => {
   return (
     <div className="modules">
       <div className="course-overview">
-        <h4>Statistical Model Course Overview</h4>
-        <p>
+        <h5>SPSS FOR DATA ANALYSIS</h5>
+        {/* <p>
           Welcome to the world of Applied Statistical Modeling! This course is
           designed to equip you with the essential skills and knowledge needed
           to analyze data, draw meaningful insights, and make informed decisions
@@ -13,10 +13,10 @@ const StatisticalModel = () => {
           introduction to statistical concepts or a seasoned professional
           looking to enhance your modeling expertise, this course is tailored to
           cater to a diverse audience.
-        </p>
+        </p> */}
         <p></p>
         <Tabs defaultActiveKey="#1" className="mb-3">
-          <Tab eventKey="#1" title="Beginner">
+          <Tab eventKey="#1" title="Beginner Level">
             <div className="collapse-section1">
               <p>
                 <button
@@ -224,4 +224,4 @@ const StatisticalModel = () => {
   );
 };
 
-export default StatisticalModel;
+export default Spss;
