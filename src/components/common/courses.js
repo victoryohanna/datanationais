@@ -287,3 +287,206 @@ export const excelCourses = [
     dataId: "collapse12",
   },
 ];
+
+export const pythonBeginnerCourse = [
+  {
+    title: "Module 1: Introduction to Data Analysis with Python",
+    topic: [
+      {
+        name: "1.1 Overview of Data Analysis",
+        subTopics: [
+          "Importance and Applications",
+          "Role of Python in Data Analysis",
+        ],
+      },
+      {
+        name: "1.2 Setting Up the Python Data Science Environment",
+        subTopics: [
+          "Installing Anaconda Distribution",
+          "Introduction to Jupyter Notebooks",
+        ],
+      },
+    ],
+    datatarget: "#collapse1",
+    dataId: "collapse1",
+  },
+  {
+    title: "Module 2: Basic Python for Data Analysis",
+    topic: [
+      {
+        name: "2.1 NumPy Basics",
+        subTopics: [
+          "Introduction to NumPy Arrays",
+          "Array Operations and Functions",
+        ],
+      },
+      {
+        name: "2.2 Pandas Introduction",
+        subTopics: ["DataFrames and Series", "Data Indexing and Selection"],
+      },
+    ],
+    datatarget: "#collapse2",
+    dataId: "collapse2",
+  },
+  {
+    title: "Module 3: Data Cleaning and Preprocessing",
+    topic: [
+      {
+        name: "3.1 Handling Missing Data",
+        subTopics: [
+          "Identifying and Filling Missing Values",
+          "Dropping Missing Values",
+        ],
+      },
+      {
+        name: "3.2 Data Wrangling with Pandas",
+        subTopics: [
+          "Merging and Concatenating DataFrames",
+          "Reshaping and Pivoting Data",
+        ],
+      },
+    ],
+    datatarget: "#collapse3",
+    dataId: "collapse3",
+  },
+];
+
+export const pythonIntermediateCourse = [
+  {
+    title: "Module 4: Exploratory Data Analysis (EDA)",
+    topic: [
+      {
+        name: "4.1 Descriptive Statistics",
+        subTopics: [
+          "Measures of Central Tendency and Dispersion",
+          "Data Visualization with Matplotlib and Seaborn",
+        ],
+      },
+      {
+        name: "4.2 Data Distribution Analysis",
+        subTopics: [
+          "Histograms and Kernel Density Estimation (KDE)",
+          "Box Plots and Violin Plots",
+        ],
+      },
+    ],
+    datatarget: "#collapse1",
+    dataId: "collapse1",
+  },
+  {
+    title: "Module 5: Advanced Data Visualization",
+    topic: [
+      {
+        name: "5.1 Interactive Visualizations with Plotly",
+        subTopics: [
+          "Building Interactive Charts",
+          "Dashboards and Applications",
+        ],
+      },
+      {
+        name: "5.2 Geographic Data Visualization",
+        subTopics: [
+          "Plotting Maps with Geopandas",
+          "Working with GeoJSON and Shapefiles",
+        ],
+      },
+    ],
+    datatarget: "#collapse2",
+    dataId: "collapse2",
+  },
+  {
+    title: "Module 6: Statistical Analysis with Python",
+    topic: [
+      {
+        name: "6.1 Hypothesis Testing",
+        subTopics: [
+          "t-tests, ANOVA, and Chi-Square Tests",
+          "Understanding p-values and Confidence Intervals",
+        ],
+      },
+      {
+        name: "6.2 Correlation and Regression Analysis",
+        subTopics: [
+          "Pearson and Spearman Correlation",
+          "Simple and Multiple Regression",
+        ],
+      },
+    ],
+    datatarget: "#collapse3",
+    dataId: "collapse3",
+  },
+];
+
+export const pythonAdvancedCourse = [
+  {
+    title: "Module 7: Machine Learning Foundations with Python",
+    topic: [
+      {
+        name: "7.1 Introduction to Machine Learning",
+        subTopics: [
+          "Types of Machine Learning",
+          "Supervised vs. Unsupervised Learning",
+        ],
+      },
+      {
+        name: "7.2 Scikit-Learn Basics",
+        subTopics: [
+          "Installing Anaconda Distribution",
+          "Introduction to Jupyter Notebooks",
+        ],
+      },
+    ],
+    datatarget: "#collapse1",
+    dataId: "collapse1",
+  },
+  {
+    title: "Module 8: Time Series Analysis",
+    topic: [
+      {
+        name: "8.1 Handling Time Series Data with Pandas",
+        subTopics: [
+          "Resampling and Shifting",
+          "Rolling indows and Exponential Moving Averages",
+        ],
+      },
+      {
+        name: "8.2 Time Series FoWrecasting",
+        subTopics: ["ARIMA and Seasonal Decomposition of Time Series (STL)"],
+      },
+    ],
+    datatarget: "#collapse2",
+    dataId: "collapse2",
+  },
+  {
+    title: "Module 9: Big Data Processing with Python",
+    topic: [
+      {
+        name: "9.1 Introduction to Big Data",
+        subTopics: ["Overview of Apache Spark", "PySpark Basics"],
+      },
+      {
+        name: "9.2 Working with Distributed Data",
+        subTopics: [
+          "Parallel Computing and Spark RDDs",
+          "Spark DataFrames and SQL",
+        ],
+      },
+    ],
+    datatarget: "#collapse3",
+    dataId: "collapse3",
+  },
+  {
+    title: "Module 10: Real-World Data Analysis Projects",
+    topic: [
+      {
+        name: "10.1 Capstone Project",
+        subTopics: [
+          "Applying Data Analysis Skills to a Real-world Dataset",
+          " Project Presentation and Documentation",
+        ],
+      },
+    ],
+    datatarget: "#collapse4",
+    dataId: "collapse4",
+  },
+];
