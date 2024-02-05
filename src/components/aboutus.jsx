@@ -20,7 +20,7 @@ const About = () => {
               <div className="title-text">
                 <h3>What We Do</h3>
               </div>
-              <div className="">
+              <div className="text-body">
                 <p>
                   At DataNationIAS, we are on a mission to revolutionize the way
                   businesses harness the power of data. Established in 2020,
@@ -36,13 +36,13 @@ const About = () => {
               <div className="title-text">
                 <h3>How We Do It</h3>
               </div>
-              <div className="">
+              <div className="text-body">
                 <p>
                   We have been on a relentless journey to redefine standards and
-                  set new benchmarks in DataNationIAS. Our passion for
-                  innovation and dedication to customer satisfaction drive
-                  everything we do. In a crowded market, what distinguishes us
-                  is our unwavering commitment to quality service.
+                  set new benchmarks. Our passion for innovation and dedication
+                  to customer satisfaction drive everything we do. In a crowded
+                  market, what distinguishes us is our unwavering commitment to
+                  quality service.
                 </p>
               </div>
             </div>

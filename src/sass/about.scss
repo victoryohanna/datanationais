@@ -36,13 +36,16 @@
 
           .title-text {
             text-align: center;
-          }
-          div {
-            padding: 0 20px;
             h3 {
               font-weight: 600;
               margin-top: 30px;
             }
+          }
+          .text-body {
+            padding: 0 20px;
+            // height: 200px;
+            // border: 1px solid black;
+            
             p {
               font-size: 18px;
             }
