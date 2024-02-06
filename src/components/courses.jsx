@@ -3,9 +3,6 @@ import { useState } from "react";
 
 import "../sass/courses.scss";
 
-import Frontend from "./common/course/frontend";
-import Backend from "./common/course/backend";
-import FullStack from "./common/course/fullstack";
 import Python from "./common/course/pythonr";
 import Excel from "./common/course/excel";
 import RProgramming from "./common/course/rProgramming";
@@ -13,21 +10,10 @@ import Tableau from "./common/course/tableau";
 import Spss from "./common/course/spss";
 import Sql from "./common/course/sql";
 import PowerBI from "./common/course/powerBI";
+import WebDevelopment from "./common/webDevelopment";
 
 const Courses = () => {
   const [component, setComponent] = useState("");
-
-  const renderFrontend = () => {
-    setComponent("forntend");
-  };
-
-  const renderBackend = () => {
-    setComponent("backend");
-  };
-
-  const renderFullstack = () => {
-    setComponent("fullstack");
-  };
 
   const renderExcel = () => {
     setComponent("excel");
@@ -53,6 +39,11 @@ const Courses = () => {
     setComponent("python");
   };
 
+  
+  const renderWeb = () => {
+    setComponent("web");
+  };
+
   return (
     <div className="courses-wrapper" id="courses-section">
       <div className="container courses-container">
@@ -69,7 +60,6 @@ const Courses = () => {
                 <span>Duration : 8 weeks</span>
               </div>
               <div className="courses">
-                {/* <h4>Course List</h4> */}
                 <span>Data Analytics</span> <hr />
                 <ul>
                   <li>
@@ -114,21 +104,12 @@ const Courses = () => {
                     <button
                       type="button"
                       className="bt"
-                      onClick={renderFrontend}
+                      onClick={renderWeb}
                     >
-                      Frontend
+                      Web Development
                     </button>
                   </li>
-                  <li>
-                    <button type="button" onClick={renderBackend}>
-                      Backend
-                    </button>
-                  </li>
-                  <li>
-                    <button type="button" onClick={renderFullstack}>
-                      Full-Stack
-                    </button>
-                  </li>
+                  
                 </ul>
                 {/* <span>Android & IOS Application</span> */}
                 <ul>
@@ -139,12 +120,8 @@ const Courses = () => {
               </div>
             </div>
             <div className="col-md-8">
-              {component === "frontend" ? (
-                <Frontend />
-              ) : component === "backend" ? (
-                <Backend />
-              ) : component === "fullstack" ? (
-                <FullStack />
+              {component === "web" ? (
+                <WebDevelopment />
               ) : component === "excel" ? (
                 <Excel />
               ) : component === "spss" ? (
