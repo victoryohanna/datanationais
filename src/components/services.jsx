@@ -52,7 +52,6 @@ const Services = () => {
           </div>
           <div className="col-md-6">
             <div className="research-section">
-              {/* <Link to="/research"> */}
               <h3>Academic Research</h3>
               <p>
                 We believe that the most profound discoveries often occur at the

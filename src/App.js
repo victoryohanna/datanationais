@@ -21,7 +21,7 @@ export default function App() {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
-        <Route path="/data-analytics" element={<Analytics />} />
+        {/* <Route path="/data-analytics" element={<Analytics />} />
         <Route
           path="/business-intelligence"
           element={<BusinessIntelligence />}
@@ -29,7 +29,7 @@ export default function App() {
         <Route path="/consultancy" element={<Consultancy />} />
         <Route path="/research" element={<Research />} />
         <Route path="/training" element={<Training />} />
-        <Route path="/web-design" element={<WebDesign />} />
+        <Route path="/web-design" element={<WebDesign />} /> */}
       </Route>
     )
   );

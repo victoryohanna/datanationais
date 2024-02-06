@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="nav-wrapper">
       <div className="container-fluid navbar-wrapper">
         <nav className="navbar navbar-expand-lg navbar-body">
-          <div className="container-fluid  ">
+          <div className="container-fluid">
             <div className="navbar-brand">
               <img src={brand} alt="brand" style={{ width: "250px" }} />
             </div>
@@ -30,11 +30,10 @@ const Navbar = () => {
               <ul className="navbar-nav">
                 {/* <li className="nav-item">
                   <Link
-                    to="/"
+                    to="/consultancy"
                     className="nav-link "
                     aria-current="page"
                     activeClass="active"
-                    
                   >
                     Home
                   </Link>
