@@ -28,16 +28,7 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav">
-                {/* <li className="nav-item">
-                  <Link
-                    to="/consultancy"
-                    className="nav-link "
-                    aria-current="page"
-                    activeClass="active"
-                  >
-                    Home
-                  </Link>
-                </li> */}
+                
                 <li className="nav-item">
                   <Link
                     to="hero-section"

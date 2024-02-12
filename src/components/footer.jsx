@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import { BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
 import brand from "../assets/logo1.jpg";
 
@@ -17,43 +17,43 @@ const Footer = () => {
             <hr />
             <ul>
               <li>
-                <Link to="/">Data Analytics</Link>
+                <a href="/data-analytics">Data Analytics</a>
               </li>
               <li>
-                <Link to="/">Business Intelligence</Link>
+                <a href="/business-intelligence">Business Intelligence</a>
               </li>
               <li>
-                <Link to="/">Academic Research</Link>
+                <a href="/research">Academic Research</a>
               </li>
               <li>
-                <Link to="/">Web Development</Link>
+                <a href="/web-design">Web Development</a>
               </li>
               <li>
-                <Link to="/">Training</Link>
+                <a href="/training">Training</a>
               </li>
               <li>
-                <Link to='/'>Consultancy</Link>
+                <a href="/consultancy">Consultancy</a>
               </li>
             </ul>
           </div>
-          {/* <div className="col-md-3 quick-links">
-            <h4>Quick Links</h4>
+          {/* <div className="col-md-3 quick-as">
+            <h4>Quick as</h4>
             <hr />
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <a href="/">Home</a>
               </li>
               <li>
-                <Link to="/">About</Link>
+                <a href="/">About</a>
               </li>
               <li>
-                <Link to="/">Projects</Link>
+                <a href="/">Projects</a>
               </li>
               <li>
-                <Link to="/">Contact Us</Link>
+                <a href="/">Contact Us</a>
               </li>
               <li>
-                <Link to="/">Terms & Conditions</Link>
+                <a href="/">Terms & Conditions</a>
               </li>
               
             </ul>
@@ -93,19 +93,19 @@ const Footer = () => {
             <div className="social-media">
               <ul>
                 <li>
-                  <Link to="/">
+                  <a href="/">
                     <BsTwitter />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/">
+                  <a href="/">
                     <BsInstagram />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/">
+                  <a href="/">
                     <BsFacebook />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

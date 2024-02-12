@@ -1,5 +1,5 @@
 import "../sass/services.scss";
-import { Link } from "react-router-dom";
+
 import RegisterCourse from "./register";
 
 const Services = () => {
@@ -26,16 +26,14 @@ const Services = () => {
                 insightful visuals that drive strategic decision-making.
               </p>
               <div className="d-flex justify-content-center">
-                {/* <Link to="/"> */}
-                <Link to="/data-analytics">
+                <a href="/data-analytics">
                   <h5>Read More...</h5>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
           <div className="col-md-6">
             <div className="research-section">
-              {/* <Link to="/business-intelligence"> */}
               <h3>Business Intelligence</h3>
               <p>
                 Stay ahead of the curve with our predictive analytics services.
@@ -44,9 +42,9 @@ const Services = () => {
                 behavior, and operational needs.
               </p>
               <div className="d-flex justify-content-center">
-                <Link to="/">
+                <a href="/business-intelligence">
                   <h5>Read More...</h5>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -60,15 +58,14 @@ const Services = () => {
                 multiple perspectives.
               </p>
               <div className="d-flex justify-content-center">
-                <Link to="/">
+                <a href="/research">
                   <h5>Read More...</h5>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
           <div className="col-md-6">
             <div className="software_dev-section">
-              {/* <Link to="/web-design"> */}
               <h3>Software Development</h3>
               <p>
                 Elevate your online presence with our web and mobile app
@@ -76,15 +73,14 @@ const Services = () => {
                 engaging applications that resonate with your target audience.
               </p>
               <div className="d-flex justify-content-center">
-                <Link to="/">
+                <a href="/web-design">
                   <h5>Read More...</h5>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
           <div className="col-md-6">
             <div className="training-section">
-              {/* <Link to="/training"> */}
               <h3>Training</h3>
               <p>
                 We are dedicated to pushing the boundaries of knowledge,
@@ -92,15 +88,14 @@ const Services = () => {
                 challenges of our time through rigorous training.
               </p>
               <div className="d-flex justify-content-center">
-                <Link to="/">
+                <a href="/training">
                   <h5>Read More...</h5>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
           <div className="col-md-6">
             <div className="research-section">
-              {/* <Link to="/consultancy"> */}
               <h3>Consultancy</h3>
               <p>
                 Unlock the full potential of your business with our strategic
@@ -109,14 +104,14 @@ const Services = () => {
                 that drive growth and sustainability.
               </p>
               <div className="d-flex justify-content-center">
-                <Link to="/">
+                <a href="/research">
                   <h5>Read More...</h5>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <RegisterCourse/>
+        <RegisterCourse />
       </div>
     </div>
   );
