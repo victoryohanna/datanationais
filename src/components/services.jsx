@@ -39,7 +39,7 @@ const Services = () => {
                 insightful visuals that drive strategic decision-making.
               </p>
               <div className="d-flex justify-content-center">
-                <Link to="/services/data-analytics">
+                <Link to="services/data-analytics">
                   <h5>Read More...</h5>
                 </Link>
               </div>
@@ -133,7 +133,7 @@ const Services = () => {
                 challenges of our time through rigorous training.
               </p>
               <div className="d-flex justify-content-center">
-                <Link to="/services/training">
+                <Link to="services/training">
                   <h5>Read More...</h5>
                 </Link>
               </div>
@@ -157,7 +157,7 @@ const Services = () => {
                 that drive growth and sustainability.
               </p>
               <div className="d-flex justify-content-center">
-                <Link to="/services/research">
+                <Link to="services/research">
                   <h5>Read More...</h5>
                 </Link>
               </div>

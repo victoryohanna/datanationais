@@ -51,7 +51,7 @@ const NavLinks = () => {
                     <li>
                       <Link
                         className="dropdown-item"
-                        to="services/data-analytics"
+                        to="/services/data-analytics"
                       >
                         Data Analytics
                       </Link>
