@@ -3,7 +3,6 @@
   background: #222121;
   color: #ffffff;
   padding-top: 60px;
-  
 
   .logo-section {
     display: flex;
@@ -22,7 +21,6 @@
         h4,
         h5 {
           font-weight: 700;
-         
         }
         ul {
           display: inline-block;
@@ -90,7 +88,8 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    background: #f8f7f7;
+    // font-size: 14px;
+    // background: #222121;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     // color: #ffffff;
 
