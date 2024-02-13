@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import brand from "../assets/logo1.jpg";
 
 import "../sass/navbar.scss";
+import RegisterCourse from "./common/register";
 
 const NavLinks = () => {
   return (
@@ -74,6 +75,7 @@ const NavLinks = () => {
                   </ul>
                 </li>
               </ul>
+              <RegisterCourse/>
 
               <div className="button-section">
                 <button

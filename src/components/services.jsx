@@ -1,7 +1,7 @@
 import "../sass/services.scss";
 import { Link } from "react-router-dom";
 
-import RegisterCourse from "./register";
+import RegisterCourse from "./common/register";
 
 const Services = () => {
   return (

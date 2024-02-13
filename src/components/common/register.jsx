@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../sass/register.scss";
+import "../../sass/register.scss";
 import axios from "axios";
 
 const course = [
