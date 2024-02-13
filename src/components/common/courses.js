@@ -1,4 +1,4 @@
-export const excelCourses = [
+export const excelBeginnerCourses = [
   {
     title: "Module 1: Introduction to Data Analysis",
     topic: [
@@ -152,6 +152,10 @@ export const excelCourses = [
     datatarget: "#collapse6",
     dataId: "collapse6",
   },
+  
+];
+
+export const excelAdvanceCourses = [
   {
     title: "Module 7: Statistical Analysis (Using Analysis ToolPak)",
     topic: [
