@@ -6,11 +6,12 @@ import Courses from "../components/courses";
 import Clients from "../components/clients";
 import OurTeam from "../components/team";
 
-import "../sass/home.scss"
+import "../sass/home.scss";
+import Navbar from "../components/navbar";
 const Home = () => {
   return (
     <div className="home-wrapper">
-      
+      <Navbar/>
       <HeaderComponent />
       <About />
       <Services/>

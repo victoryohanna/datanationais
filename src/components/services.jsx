@@ -1,4 +1,5 @@
 import "../sass/services.scss";
+import { Link } from "react-router-dom";
 
 import RegisterCourse from "./register";
 
@@ -26,9 +27,9 @@ const Services = () => {
                 insightful visuals that drive strategic decision-making.
               </p>
               <div className="d-flex justify-content-center">
-                <a href="/data-analytics">
+                <Link to="/services/data-analytics">
                   <h5>Read More...</h5>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -42,9 +43,9 @@ const Services = () => {
                 behavior, and operational needs.
               </p>
               <div className="d-flex justify-content-center">
-                <a href="/business-intelligence">
+                <Link to="services/business-intelligence">
                   <h5>Read More...</h5>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -58,9 +59,9 @@ const Services = () => {
                 multiple perspectives.
               </p>
               <div className="d-flex justify-content-center">
-                <a href="/research">
+                <Link to="services/research">
                   <h5>Read More...</h5>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -73,9 +74,9 @@ const Services = () => {
                 engaging applications that resonate with your target audience.
               </p>
               <div className="d-flex justify-content-center">
-                <a href="/web-design">
+                <Link to="services/web-design">
                   <h5>Read More...</h5>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -88,9 +89,9 @@ const Services = () => {
                 challenges of our time through rigorous training.
               </p>
               <div className="d-flex justify-content-center">
-                <a href="/training">
+                <Link to="/services/training">
                   <h5>Read More...</h5>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -104,9 +105,9 @@ const Services = () => {
                 that drive growth and sustainability.
               </p>
               <div className="d-flex justify-content-center">
-                <a href="/research">
+                <Link to="/services/research">
                   <h5>Read More...</h5>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

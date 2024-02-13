@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import brand from "../assets/logo1.jpg";
 
 import "../sass/navbar.scss";
@@ -25,9 +25,9 @@ const NavLinks = () => {
             <div className="collapse navbar-collapse ">
               <ul className="navbar-nav me-auto mb-2">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <Link className="nav-link active" aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item dropdown">
                   <span
@@ -41,35 +41,35 @@ const NavLinks = () => {
                   </span>
                   <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li>
-                      <a className="dropdown-item" href="/data-analytics">
+                      <Link className="dropdown-item" to="services/data-analytics">
                         Data Analytics
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/business-intelligence">
+                      <Link className="dropdown-item" to="/services/business-intelligence">
                         Business Intelligence
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
-                      <a className="dropdown-item" href="/research">
+                      <Link className="dropdown-item" to="/services/research">
                         Academic Research
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/web-design">
+                      <Link className="dropdown-item" to="/services/web-design">
                         Web Development
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/training">
+                      <Link className="dropdown-item" to="/services/training">
                         Training
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="/consultancy">
+                      <Link className="dropdown-item" to="/services/consultancy">
                         Consultancy
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>

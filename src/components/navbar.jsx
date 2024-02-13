@@ -28,7 +28,6 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav">
-                
                 <li className="nav-item">
                   <Link
                     to="hero-section"
@@ -39,7 +38,6 @@ const Navbar = () => {
                     smooth={true}
                     offset={-90}
                     duration={500}
-                    
                   >
                     Home
                   </Link>
