@@ -49,7 +49,7 @@ const Root = () => {
   return (
     <>
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

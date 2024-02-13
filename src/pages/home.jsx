@@ -4,10 +4,11 @@ import Services from "../components/services";
 import ContactUs from "../components/contact";
 import Courses from "../components/courses";
 import Clients from "../components/clients";
-import OurTeam from "../components/team";
+// import OurTeam from "../components/team";
 
 import "../sass/home.scss";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 const Home = () => {
   return (
     <div className="home-wrapper">
@@ -18,7 +19,8 @@ const Home = () => {
       <Courses/>
       <ContactUs/>
       <Clients/>
-      <OurTeam/>
+      {/* <OurTeam/> */}
+      <Footer/>
     </div>
   );
 };

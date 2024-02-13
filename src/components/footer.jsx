@@ -1,15 +1,16 @@
 
 import { BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
-import brand from "../assets/logo1.jpg";
+//import brand from "../assets/logo1.jpg";
+import { Link } from "react-router-dom";
 
 import "../sass/footer.scss";
 
 const Footer = () => {
   return (
-    <div className="footer" id="footer-section">
-      <div className="logo-section">
+    <div className="footer" >
+      {/* <div className="logo-section">
         <img src={brand} className="footer-logo" alt="..." />
-      </div>
+      </div> */}
       <div className="container">
         <div className="row">
           <div className="col-md-4">
@@ -17,22 +18,24 @@ const Footer = () => {
             <hr />
             <ul>
               <li>
-                <a href="/data-analytics">Data Analytics</a>
+                <Link to="/services/data-analytics">Data Analytics</Link>
               </li>
               <li>
-                <a href="/business-intelligence">Business Intelligence</a>
+                <Link to="/services/business-intelligence">
+                  Business Intelligence
+                </Link>
               </li>
               <li>
-                <a href="/research">Academic Research</a>
+                <Link to="/services/research">Academic Research</Link>
               </li>
               <li>
-                <a href="/web-design">Web Development</a>
+                <Link to="/services/web-design">Web Development</Link>
               </li>
               <li>
-                <a href="/training">Training</a>
+                <Link to="/services/training">Training</Link>
               </li>
               <li>
-                <a href="/consultancy">Consultancy</a>
+                <Link to="/services/consultancy">Consultancy</Link>
               </li>
             </ul>
           </div>
