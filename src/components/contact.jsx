@@ -19,6 +19,9 @@ const ContactUs = () => {
           <div className="col-md-4">
             <div className="email">
               <p>Email: datanation16@gmail.com</p>
+              <p>
+                <span>Phone N0: </span>+2348134552628
+              </p>
               <div className="contact-form">
                 <form>
                   <div className="mb-3">
@@ -43,27 +46,26 @@ const ContactUs = () => {
                     ></textarea>
                   </div>
                   <div className="button-section">
-                    <button type="submit" >Submit</button>
+                    <button type="submit">Submit</button>
                   </div>
                 </form>
               </div>
             </div>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-7">
             <div className="address">
               <p>60, Iledu Road, Tanke Bubu, Ilorin South LGA, </p>
               <p>Ilorin Kwara State</p>
-             
             </div>
             <div className="map-section">
-                <Map/>
+              <Map />
             </div>
           </div>
-          <div className="col-md-3">
+          {/* <div className="col-md-3">
             <p>
               <span>Phone N0: </span>+2348134552628
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
