@@ -1,5 +1,5 @@
 import "../sass/contactUs.scss";
-// import Map from "./elements/map";
+import Map from "./elements/map";
 // import location from './elements/location'
 
 
@@ -56,7 +56,7 @@ const ContactUs = () => {
              
             </div>
             <div className="map-section">
-                {/* <Map location={location} zoomLevel={15}/> */}
+                <Map/>
             </div>
           </div>
           <div className="col-md-3">
