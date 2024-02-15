@@ -3,12 +3,14 @@ import "../../sass/register.scss";
 import axios from "axios";
 
 const course = [
-  "Statistical Modelling",
-  "Statistical Packages",
-  "R & Python Programming",
-  "Frontend Web Development",
-  "Backend Web Development",
-  "Full-Stack Web Development",
+  "Excel for Data Analysis",
+  "SPSS for Data Analysis",
+  "R programming for Data Analysis",
+  "Python programming for Data Analysis",
+  "Power BI for Data Visualization",
+  "Taleau for Data Visualization",
+  "Structured Query Language",
+  "Web Development",
 ];
 
 const RegisterCourse = () => {

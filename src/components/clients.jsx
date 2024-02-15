@@ -1,7 +1,7 @@
 
 import "../sass/clients.scss";
 import {Link} from "react-router-dom"
-import { client1, client2, client3 } from "./elements/services";
+import { client1, client2, client3 } from "./common/clients";
 
 const Clients = ()=>{
     return(

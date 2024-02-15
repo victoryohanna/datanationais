@@ -10,7 +10,7 @@ import Tableau from "./common/course/tableau";
 import Spss from "./common/course/spss";
 import Sql from "./common/course/sql";
 import PowerBI from "./common/course/powerBI";
-import WebDevelopment from "./common/webDevelopment";
+import WebDevelopment from "./common/course/webDevelopment";
 
 const Courses = () => {
   const [component, setComponent] = useState("");
