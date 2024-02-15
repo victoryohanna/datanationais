@@ -1,32 +1,76 @@
+.clients-wrapper {
+  padding: 20px 0 248px 0;
+  .clients-container {
+    .header-text {
+      text-align: center;
+      margin: 20px 0;
 
-.clients-wrapper{
-    padding: 20px 0 248px 0;
-    .clients-container{
-        .header-text {
-            text-align: center;
-            margin: 20px 0;
-      
-            h1 {
-              font-weight: 700;
-              margin-bottom: 20px;
-            }
-          }
-
-          .clients-section{
-            padding: 35px 0;
-            .row{
-                .col-md-4{
-                    img{
-                        width: 250px;
-                       height: 120px;
-                       
-                      
-                    }
-                    :hover{
-                      opacity: 0.7;
-                     }
-                }
-            }
-          }
+      h1 {
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
     }
+
+    .clients-section {
+      padding: 35px 0;
+      .row {
+        .col-md-4 {
+          padding: 8px;
+          display: flex;
+          justify-content: center;
+          .client {
+            padding: 8px;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            img {
+              width: 350px;
+              height: 180px;
+            }
+          }
+
+          :hover {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .clients-wrapper {
+    .clients-container {
+      .clients-section {
+        .row {
+          .col-md-4 {
+            .client {
+              img {
+                width: 150px;
+                height: 150px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .clients-wrapper {
+    .clients-container {
+      .clients-section {
+        .row {
+          .col-md-4 {
+            .client {
+              img {
+                width: 250px;
+                height: 150px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
