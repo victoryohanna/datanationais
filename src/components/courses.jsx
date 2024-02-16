@@ -57,7 +57,7 @@ const Courses = () => {
                 <h4>Time Schedule</h4>
                 <span>Monday - Friday : 9am - 1pm</span> <br />
                 <span>Saturday : 10am - 4pm</span> <br />
-                <span>Duration : 8 weeks</span>
+                {/* <span>Duration : 8 weeks</span> */}
               </div>
               <div className="courses">
                 <span>Data Analytics</span> <hr />

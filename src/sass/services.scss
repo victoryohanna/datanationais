@@ -104,10 +104,10 @@
             }
           }
         }
-        animation-name: bounce;
-        animation-duration: 10s;
-        animation-iteration-count: 1;
-        animation-direction: alternate;
+        animation-name:none;
+        animation-duration: 0s;
+        animation-iteration-count: 0;
+        animation-direction:normal
       }
 
       .apply-button {
@@ -144,10 +144,10 @@
             }
           }
         }
-        animation-name: bounce;
-        animation-duration: 10s;
-        animation-iteration-count: 1;
-        animation-direction: alternate;
+        animation-name: none;
+        animation-duration: 0s;
+        animation-iteration-count: 0;
+        animation-direction: normal;
       }
 
       .apply-button {

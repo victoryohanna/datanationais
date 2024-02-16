@@ -6,12 +6,12 @@ import {
   Outlet,
 } from "react-router-dom";
 import Home from "./pages/home";
-import Analytics from "./pages/analytics";
-import BusinessIntelligence from "./pages/businessIntelligence";
-import Consultancy from "./pages/consultancy";
-import Research from "./pages/research";
-import Training from "./pages/training";
-import WebDesign from "./pages/webdesign";
+import Analytics from "./pages/services/analytics";
+import BusinessIntelligence from "./pages/services/businessIntelligence";
+import Consultancy from "./pages/services/consultancy";
+import Research from "./pages/services/research";
+import Training from "./pages/services/training";
+import WebDesign from "./pages/services/webdesign";
 import Services from "./pages/services";
 
 export default function App() {

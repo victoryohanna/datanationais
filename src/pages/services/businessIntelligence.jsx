@@ -1,11 +1,11 @@
-import React from "react";
-import "../sass/pages/styles.scss";
+import React from 'react';
+import "../../sass/pages/styles.scss";
 
-export default function Training() {
+export default function BusinessIntelligence() {
   return (
     <div className="container">
       <div className="header-section">
-        <h1>Training</h1>
+        <h1>Business Intelligence</h1>
       </div>
       <div className="content-section">
         <p>
@@ -20,12 +20,7 @@ export default function Training() {
           iure dolore nisi, soluta pariatur molestias doloremque, fugiat non est
           amet recusandae sed accusamus hic illum aperiam. Natus vel pariatur
           sequi mollitia, soluta qui voluptatibus quaerat aliquid cumque
-          ratione? Harum. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Nobis commodi recusandae asperiores illo rem? Sint qui deleniti
-          neque odit tempore, iure dolore nisi, soluta pariatur molestias
-          doloremque, fugiat non est amet recusandae sed accusamus hic illum
-          aperiam. Natus vel pariatur sequi mollitia, soluta qui voluptatibus
-          quaerat aliquid cumque ratione? Harum.
+          ratione? Harum.
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sit

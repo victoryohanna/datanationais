@@ -1,5 +1,5 @@
 import React from 'react';
-import "../sass/pages/styles.scss";
+import "../../sass/pages/styles.scss";
 
 export default function WebDesign() {
   return (
