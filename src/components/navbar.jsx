@@ -34,6 +34,8 @@ const Navbar = () => {
                     className="nav-link "
                     aria-current="page"
                     activeClass="active"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
                     spy={true}
                     smooth={true}
                     offset={-90}
@@ -48,6 +50,8 @@ const Navbar = () => {
                     className="nav-link "
                     aria-current="page"
                     activeClass="active"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
                     spy={true}
                     smooth={true}
                     offset={-90}
@@ -62,6 +66,8 @@ const Navbar = () => {
                     className="nav-link "
                     aria-current="page"
                     activeClass="active"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
                     spy={true}
                     smooth={true}
                     offset={-90}
@@ -76,6 +82,8 @@ const Navbar = () => {
                     className="nav-link "
                     aria-current="page"
                     activeClass="active"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
                     spy={true}
                     smooth={true}
                     offset={-90}
@@ -90,6 +98,8 @@ const Navbar = () => {
                     className="nav-link "
                     aria-current="page"
                     activeClass="active"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
                     spy={true}
                     smooth={true}
                     offset={-90}
@@ -104,6 +114,8 @@ const Navbar = () => {
                     className="nav-link "
                     aria-current="page"
                     activeClass="active"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show"
                     spy={true}
                     smooth={true}
                     offset={-90}
