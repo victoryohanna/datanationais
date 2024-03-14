@@ -12,15 +12,16 @@ import Footer from "../components/footer";
 const Home = () => {
   return (
     <div className="home-wrapper">
-      <Navbar/>
+      <Navbar />
       <HeaderComponent />
       <About />
-      <Services/>
-      <Courses/>
-      <ContactUs/>
-      <Clients/>
+      <Services />
+      <Courses />
+      <ContactUs />
+      <Clients />
       {/* <OurTeam/> */}
-      <Footer/>
+      <Footer />
+     
     </div>
   );
 };
