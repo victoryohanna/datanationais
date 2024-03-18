@@ -9,29 +9,13 @@ export default function Training() {
       </div>
       <div className="content-section">
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam harum
-          voluptates mollitia iure dolor. Pariatur quae corporis alias veritatis
-          enim doloremque, repellat quod? Beatae error corporis illo pariatur
-          deserunt architecto?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis commodi
-          recusandae asperiores illo rem? Sint qui deleniti neque odit tempore,
-          iure dolore nisi, soluta pariatur molestias doloremque, fugiat non est
-          amet recusandae sed accusamus hic illum aperiam. Natus vel pariatur
-          sequi mollitia, soluta qui voluptatibus quaerat aliquid cumque
-          ratione? Harum. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Nobis commodi recusandae asperiores illo rem? Sint qui deleniti
-          neque odit tempore, iure dolore nisi, soluta pariatur molestias
-          doloremque, fugiat non est amet recusandae sed accusamus hic illum
-          aperiam. Natus vel pariatur sequi mollitia, soluta qui voluptatibus
-          quaerat aliquid cumque ratione? Harum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sit
-          ipsum, repellat, delectus suscipit ad ut repudiandae voluptas eaque
-          mollitia minus rerum ipsa, libero cumque modi! Tempore ab numquam quae
-          fugit est, nemo unde enim doloremque cumque amet voluptates fugiat.
+          We are committed to developing intellectual curiosity and specialize
+          in addressing crucial challenges through our extensive training
+          programs. By pushing the boundaries of knowledge, we promote lifelong
+          learning and skill development. We aim to provide individuals and
+          businesses with the tools and experience they need to thrive in
+          today's fast-expanding environment, assuring long-term success and
+          adaptation in a constantly changing business climate.
         </p>
       </div>
     </div>

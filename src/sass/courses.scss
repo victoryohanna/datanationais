@@ -8,7 +8,7 @@
       margin: 10px 0;
 
       h1 {
-        font-weight: 700;
+        font-weight: 500;
         margin-bottom: 20px;
       }
     }
@@ -35,8 +35,8 @@
             -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
             box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
             span {
-              font-size: 17px;
-              font-weight: 600;
+              font-size: 16px;
+              font-weight: 500;
             }
             hr {
               margin-bottom: 0;
@@ -51,7 +51,7 @@
                   width: 100%;
                   text-align: left;
                   border: none;
-                  font-size: 17px;
+                  font-size: 16px;
                   padding: 2px 0;
                   background: #ffffff;
                 }
@@ -73,21 +73,23 @@
 
             .course-overview {
               p {
-                font-size: 20px;
+                font-size: 16px;
               }
 
               .btn-collapse {
                 border: 1px solid #f2f2f2;
-                background: #f2f2f2;
+                background: #f8f6f6;
                 width: 100%;
                 text-align: left;
                 padding: 8px 4px;
-                font-size: 22px;
+                font-size: 16px;
+                border-radius: 5px;
               }
 
               .collapse {
                 .pp {
-                  font-size: 18px;
+                  font-size: 16px;
+                  line-height: 32px;
                 }
               }
             }

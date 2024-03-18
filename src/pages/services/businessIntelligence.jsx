@@ -9,24 +9,13 @@ export default function BusinessIntelligence() {
       </div>
       <div className="content-section">
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam harum
-          voluptates mollitia iure dolor. Pariatur quae corporis alias veritatis
-          enim doloremque, repellat quod? Beatae error corporis illo pariatur
-          deserunt architecto?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis commodi
-          recusandae asperiores illo rem? Sint qui deleniti neque odit tempore,
-          iure dolore nisi, soluta pariatur molestias doloremque, fugiat non est
-          amet recusandae sed accusamus hic illum aperiam. Natus vel pariatur
-          sequi mollitia, soluta qui voluptatibus quaerat aliquid cumque
-          ratione? Harum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sit
-          ipsum, repellat, delectus suscipit ad ut repudiandae voluptas eaque
-          mollitia minus rerum ipsa, libero cumque modi! Tempore ab numquam quae
-          fugit est, nemo unde enim doloremque cumque amet voluptates fugiat.
+          With our predictive analytics services, you can stay ahead of the
+          competition. To predict future trends, foresee changes in the market,
+          comprehend consumer behavior, and handle operational requirements, we
+          employ state-of-the-art machine learning algorithms. We aim to
+          establish you as a leader in your industry, help you achieve
+          continuous success in a constantly shifting business climate, and make
+          sure you're well-equipped for whatever lies ahead.
         </p>
       </div>
     </div>

@@ -9,29 +9,12 @@ export default function Research() {
       </div>
       <div className="content-section">
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam harum
-          voluptates mollitia iure dolor. Pariatur quae corporis alias veritatis
-          enim doloremque, repellat quod? Beatae error corporis illo pariatur
-          deserunt architecto? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Nobis commodi recusandae asperiores illo rem? Sint
-          qui deleniti neque odit tempore, iure dolore nisi, soluta pariatur
-          molestias doloremque, fugiat non est amet recusandae sed accusamus hic
-          illum aperiam. Natus vel pariatur sequi mollitia, soluta qui
-          voluptatibus quaerat aliquid cumque ratione? Harum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis commodi
-          recusandae asperiores illo rem? Sint qui deleniti neque odit tempore,
-          iure dolore nisi, soluta pariatur molestias doloremque, fugiat non est
-          amet recusandae sed accusamus hic illum aperiam. Natus vel pariatur
-          sequi mollitia, soluta qui voluptatibus quaerat aliquid cumque
-          ratione? Harum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sit
-          ipsum, repellat, delectus suscipit ad ut repudiandae voluptas eaque
-          mollitia minus rerum ipsa, libero cumque modi! Tempore ab numquam quae
-          fugit est, nemo unde enim doloremque cumque amet voluptates fugiat.
+          Our multidisciplinary approach encourages cross-disciplinary
+          collaboration to produce meaningful discoveries. Our researchers push
+          the boundaries of knowledge by tackling challenges from different
+          perspectives through this collective effort. This approach enables us
+          to develop innovative solutions and insights that not only drive
+          progress but also deepen understanding.
         </p>
       </div>
     </div>

@@ -8,10 +8,11 @@ const About = () => {
         </div>
         <div className="who">
           <p>
-            We are a dynamic team of professionals, each committed to delivering
-            exceptional results in DataNationIAS. From our skilled artisans to
-            our visionary leaders, everyone at DataNationIAS shares a common
-            goal - to exceed your expectations.
+            
+            We are a dynamic group of professionals, all dedicated to providing
+            outstanding results for DataNation_IAS. To surpass your expectations
+            is the shared objective of every member of the DataNation_IAS team,
+            from our talented artisans to our visionary leaders.
           </p>
         </div>
         <div className="row">
@@ -22,11 +23,11 @@ const About = () => {
               </div>
               <div className="text-body">
                 <p>
-                  At DataNationIAS, we are on a mission to revolutionize the way
-                  businesses harness the power of data. Established in 2020,
-                  DataNationIAS is driven by a passion for innovation, a
-                  commitment to excellence, and a vision to transform raw data
-                  into actionable insights.
+                  
+                  At DataNation_IAS, we are on a mission to transform the way
+                  organizations use data. DataNation_IAS, incorporated in 2022,
+                  is driven by a desire to innovate, a commitment to excellence,
+                  and a vision to turn raw data into actionable insights.
                 </p>
               </div>
             </div>
@@ -38,11 +39,12 @@ const About = () => {
               </div>
               <div className="text-body">
                 <p>
-                  We have been on a relentless journey to redefine standards and
-                  set new benchmarks. Our passion for innovation and dedication
-                  to customer satisfaction drive everything we do. In a crowded
-                  market, what distinguishes us is our unwavering commitment to
-                  quality service.
+                  
+                  DataNation_IAS has worked relentlessly to redefine standards
+                  and set new benchmarks. Our passion for innovation and
+                  commitment to customer satisfaction drive everything we do.
+                  Our continual commitment to outstanding service distinguishes
+                  us in the highly competitive market.
                 </p>
               </div>
             </div>

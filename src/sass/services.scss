@@ -6,13 +6,13 @@
       margin: 20px 0;
 
       h1 {
-        font-weight: 700;
+        font-weight: 500;
         margin-bottom: 20px;
       }
 
       span {
         font-size: 20px;
-        opacity: 0.5;
+        opacity: 0.9;
       }
     }
 
@@ -30,6 +30,7 @@
           width: 100%;
           height: auto;
           font-size: 18px;
+          text-align: justify;
           // -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
           // box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
 
@@ -61,7 +62,7 @@
             }
             h4{
               margin: 10px 0;
-              font-weight: 700;
+              font-weight: 500;
             }
           }
         }

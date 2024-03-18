@@ -15,10 +15,10 @@ const Services = () => {
         <div className="header-text">
           <h1>Our Services</h1>
           <span>
-            At DataNationIAS, we understand that navigating the complexities of
-            today's business landscape requires more than just expertise; we are
-            here to provide strategic insight and innovation in the following
-            fields:
+            DataNation_IAS understands that navigating the complexity of today's
+            business landscape demands more than just expertise. We are here to
+            deliver strategic insight and innovation through the following
+            services:
           </span>
         </div>
         <div className="row">
@@ -33,10 +33,13 @@ const Services = () => {
                 <h4>Data Analytics</h4>
               </div>
               <p>
-                Leverage the full potential of your data through our advanced
-                analytics and visualization services. From identifying trends to
-                uncovering hidden patterns, we turn complex datasets into clear,
-                insightful visuals that drive strategic decision-making.
+                With our advanced analytics and visualization services, you can
+                realize the full potential of your data. Our specialty is
+                transforming complicated datasets into understandable,
+                insightful visuals. We offer actionable insights that inform
+                strategic decision-making and help you stay ahead in the
+                fast-paced business world of today by spotting trends and
+                revealing hidden patterns.
               </p>
               <div className="d-flex justify-content-center">
                 <Link to="services/data-analytics">
@@ -55,12 +58,15 @@ const Services = () => {
                 </div>
                 <h4>Business Intelligence</h4>
               </div>
-
               <p>
-                Stay ahead of the curve with our predictive analytics services.
-                Our models utilize machine learning algorithms to forecast
-                future trends, helping you anticipate market shifts, customer
-                behavior, and operational needs.
+                With our predictive analytics services, you can stay ahead of
+                the competition. To predict future trends, foresee changes in
+                the market, comprehend consumer behavior, and handle operational
+                requirements, we employ state-of-the-art machine learning
+                algorithms. We aim to establish you as a leader in your
+                industry, help you achieve continuous success in a constantly
+                shifting business climate, and make sure you're well-equipped
+                for whatever lies ahead.
               </p>
               <div className="d-flex justify-content-center">
                 <Link to="services/business-intelligence">
@@ -79,12 +85,13 @@ const Services = () => {
                 </div>
                 <h4>Academic Research</h4>
               </div>
-
               <p>
-                We believe that the most profound discoveries often occur at the
-                intersections of different disciplines. Our researchers
-                collaborate across fields to approach complex issues from
-                multiple perspectives.
+                Our multidisciplinary approach encourages cross-disciplinary
+                collaboration to produce meaningful discoveries. Our researchers
+                push the boundaries of knowledge by tackling challenges from
+                different perspectives through this collective effort. This
+                approach enables us to develop innovative solutions and insights
+                that not only drive progress but also deepen understanding.
               </p>
               <div className="d-flex justify-content-center">
                 <Link to="services/research">
@@ -101,13 +108,17 @@ const Services = () => {
                     <SiJirasoftware />
                   </div>
                 </div>
-                <h4>Software Development</h4>
+                <h4>Web Development</h4>
               </div>
-
               <p>
-                Elevate your online presence with our web and mobile app
-                development expertise. We create responsive, intuitive, and
-                engaging applications that resonate with your target audience.
+                Enhance your online visibility with our extensive experience in
+                web and mobile app development. Our team specializes in creating
+                responsive and intuitive applications suited to your business
+                requirements. By focusing on user experience and engagement, we
+                ensure that your digital platforms effectively resonate with
+                your target audience, resulting in increased interaction and
+                loyalty while aligning closely with your overall business
+                objectives.
               </p>
               <div className="d-flex justify-content-center">
                 <Link to="services/web-design">
@@ -126,11 +137,15 @@ const Services = () => {
                 </div>
                 <h4>Training</h4>
               </div>
-
               <p>
-                We are dedicated to pushing the boundaries of knowledge,
-                fostering intellectual curiosity, and addressing the critical
-                challenges of our time through rigorous training.
+                We are committed to developing intellectual curiosity and
+                specialize in addressing crucial challenges through our
+                extensive training programs. By pushing the boundaries of
+                knowledge, we promote lifelong learning and skill development.
+                We aim to provide individuals and businesses with the tools and
+                experience they need to thrive in today's
+                fast-expanding environment, assuring long-term success and
+                adaptation in a constantly changing business climate.
               </p>
               <div className="d-flex justify-content-center">
                 <Link to="services/training">
@@ -149,12 +164,15 @@ const Services = () => {
                 </div>
                 <h4>Consultancy</h4>
               </div>
-
               <p>
-                Unlock the full potential of your business with our strategic
-                consulting services. From market analysis to business planning,
-                our experts collaborate with you to develop tailored strategies
-                that drive growth and sustainability.
+                Our group of experienced consultants offers a wealth of
+                experience and skills. Together, we can design strategies that
+                specifically address your company's objectives and demands. Our
+                consultants can help with every step of the way, whether you
+                need help with market research, company planning, or creating
+                plans for sustainable growth. You can successfully navigate the
+                constantly changing business landscape and attain long-term
+                success when you have DataNation_IAS as your partner.
               </p>
               <div className="d-flex justify-content-center">
                 <Link to="services/research">

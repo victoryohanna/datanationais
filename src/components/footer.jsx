@@ -17,27 +17,19 @@ const Footer = () => {
               </div>
               <hr />
               <div className="vission_section">
-                <h5>Vision Statement</h5>
+                <h5>Vision Statement:</h5>
                 <p>
-                  To empower students and professionals globally with the
-                  necessary resources and guidance to succeed in their
-                  educational and professional pursuits, and to be the leading
-                  provider of end-to-end study abroad and immigration services.
+                  Our vision is to transform the use of data for academic
+                  exploration and business innovation on a global scale.
                 </p>
               </div>
               <div className="mission_section">
-                <h5>Mission Statement</h5>
+                <h5>Mission Statement:</h5>
                 <p>
-                  Our mission is to facilitate and streamline the study abroad
-                  and immigration process for our clients, from exam
-                  registration to visa processing and beyond. We aim to provide
-                  high-quality services and resources that enable students to
-                  achieve their academic and career goals, and we strive to do
-                  so with integrity, professionalism, and a commitment to
-                  excellence. We are dedicated to making the study abroad
-                  experience accessible to all, regardless of background or
-                  circumstance, and to fostering a culture of diversity,
-                  inclusivity, and global citizenship.
+                  Our mission is to empower individuals and businesses to fully
+                  utilize data for significant change and long-term success by
+                  providing them with actionable intelligence and
+                  innovative strategies.
                 </p>
               </div>
             </div>
@@ -91,7 +83,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright d-flex justify-content-center">
-        <span>&copy; Copyright 2024 All Rights Reserved</span>
+        <span>DataNation_IAS &copy; 2024. All Rights Reserved</span>
       </div>
     </div>
   );
