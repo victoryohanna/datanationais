@@ -9,9 +9,9 @@ const Tableau = () => {
   return (
     <div className="modules">
       <div className="course-overview">
-        <h5>TABLEAU FOR DATA VISUALIZATION</h5>
+        <h6>TABLEAU FOR DATA VISUALIZATION</h6>
         <Tabs defaultActiveKey="#1" className="mb-3">
-          <Tab eventKey="#1" title="Beginner Level">
+          <Tab eventKey="#1" title="Level 1">
             {tableauBeginnerCourse.map((course, i) => {
               return (
                 <div className="collapse-section1" key={i}>
@@ -24,7 +24,7 @@ const Tableau = () => {
                       aria-expanded="false"
                       aria-controls="collapseExample"
                     >
-                      <h5>{course.title}</h5>
+                      <h6>{course.title}</h6>
                     </button>
                   </p>
                   <div className="collapse" id={course.dataId}>
@@ -32,7 +32,7 @@ const Tableau = () => {
                       {course.topic.map((item, i) => {
                         return (
                           <div key={i}>
-                            <h5>{item.name}</h5>
+                            <h6>{item.name}</h6>
                             <ul>
                               {item.subTopics.map((item, i) => {
                                 return <li key={i}>{item}</li>;
@@ -47,7 +47,7 @@ const Tableau = () => {
               );
             })}
           </Tab>
-          <Tab eventKey="#2" title="Intermediate Level">
+          <Tab eventKey="#2" title="Level 2">
             {tableauIntermediateCourse.map((course, i) => {
               return (
                 <div className="collapse-section1" key={i}>
@@ -60,7 +60,7 @@ const Tableau = () => {
                       aria-expanded="false"
                       aria-controls="collapseExample"
                     >
-                      <h5>{course.title}</h5>
+                      <h6>{course.title}</h6>
                     </button>
                   </p>
                   <div className="collapse" id={course.dataId}>
@@ -68,7 +68,7 @@ const Tableau = () => {
                       {course.topic.map((item, i) => {
                         return (
                           <div key={i}>
-                            <h5>{item.name}</h5>
+                            <h6>{item.name}</h6>
                             <ul>
                               {item.subTopics.map((item, i) => {
                                 return <li key={i}>{item}</li>;
@@ -83,7 +83,7 @@ const Tableau = () => {
               );
             })}
           </Tab>
-          <Tab eventKey="#3" title="Advanced Level">
+          <Tab eventKey="#3" title="Level 3">
             {tableauAdvancedCourse.map((course, i) => {
               return (
                 <div className="collapse-section1" key={i}>
@@ -96,7 +96,7 @@ const Tableau = () => {
                       aria-expanded="false"
                       aria-controls="collapseExample"
                     >
-                      <h5>{course.title}</h5>
+                      <h6>{course.title}</h6>
                     </button>
                   </p>
                   <div className="collapse" id={course.dataId}>
@@ -104,7 +104,7 @@ const Tableau = () => {
                       {course.topic.map((item, i) => {
                         return (
                           <div key={i}>
-                            <h5>{item.name}</h5>
+                            <h6>{item.name}</h6>
                             <ul>
                               {item.subTopics.map((item, i) => {
                                 return <li key={i}>{item}</li>;
