@@ -8,7 +8,7 @@ const HeaderComponent = () => {
     <div className="container-header" id="hero-section">
       <div
         className="carousel slide carousel-fade carousel-section "
-        data-bs-ride="carousel"
+        data-bs-ride="carousel" data-bs-interval="5000"
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
