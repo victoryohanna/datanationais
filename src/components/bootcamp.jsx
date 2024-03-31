@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+
 
 function BootcampOverview() {
   return (
     <div className="bootcamp-main">
       <div className="container">
         <div className="title-section">
-            <h3>Join Our BootCamp</h3>
+          <h3>Join Our BootCamp</h3>
         </div>
         <div className="content">
           <p>
@@ -16,14 +16,14 @@ function BootcampOverview() {
             networking opportunities to propel your career in the realm of data
             analytics.
           </p>
-          <h5>Program Overview</h5>
+          <h6>Program Overview</h6>
           <p>
             The Data Analytics Bootcamp is strategically designed to unfold over
             a concise 4-week period, with daily sessions limited to a maximum of
             2 hours each. This streamlined schedule optimizes learning outcomes
             while accommodating participants' commitments.
           </p>
-          <h5>Training Schedule</h5>
+          <h6>Training Schedule</h6>
           <p>
             Participants will undergo rigorous physical lectures, spanning 2
             hours each day (Tuesday, Wednesday, and Saturday). These training
@@ -31,7 +31,7 @@ function BootcampOverview() {
             evaluation. This structure provides participants with ample time for
             reflection and assimilation of knowledge.
           </p>
-          <h5>Curriculum Highlights</h5>
+          <h6>Curriculum Highlights</h6>
           <p>
             Throughout the 4-week duration, participants will engage in a robust
             physical learning experience which will take place in the office.
@@ -40,7 +40,7 @@ function BootcampOverview() {
             approach ensures comprehensive insights into different facets of
             data analytics
           </p>
-          <h5>Application Details</h5>
+          <h6>Application Details</h6>
           <p>
             To ensure a focused and goal-oriented cohort aligned with
             organizational objectives, we limit the program to a maximum of 15
@@ -49,7 +49,7 @@ function BootcampOverview() {
             applicants at ten thousand naira (#10,000). For registration, apply
             in person at DataNation_IAS office
           </p>
-          <h5>Commitment to Excellence</h5>
+          <h6>Commitment to Excellence</h6>
           <p>
             We are committed to identifying and selecting outstanding
             participants for further specialized training, fostering continuous
@@ -62,12 +62,18 @@ function BootcampOverview() {
             take advantage of our early bird discount!
           </p>
           <div className="register">
-            <Link to="/">Apply Now!!</Link>
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#regModal"
+            >
+              Apply Now
+            </button>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default BootcampOverview;
