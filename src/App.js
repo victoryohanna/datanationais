@@ -13,6 +13,7 @@ import Research from "./pages/services/research";
 import Training from "./pages/services/training";
 import WebDesign from "./pages/services/webdesign";
 import Services from "./pages/services";
+import Bootcamp from "./pages/bootcamp";
 
 export default function App() {
   // let pathName = window.location.pathname;
@@ -20,6 +21,7 @@ export default function App() {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
+        <Route path="/bootcamp" element={<Bootcamp />} />
         <Route path="/services" element={<Services />}>
           <Route path="/services/data-analytics" element={<Analytics />} />
           <Route

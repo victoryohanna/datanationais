@@ -1,0 +1,33 @@
+.bootcamp-main {
+  .container {
+    .title-section {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .content {
+      width: 80%;
+      margin: 20px auto;
+
+      .register {
+        display: flex;
+        justify-content: center;
+
+        a {
+          font-size: 18px;
+          color: #f8f7f7;
+          padding: 10px;
+          font-weight: 700;
+          border-color: #f8f7f7;
+          border-radius: 8px;
+          background: rgba(16, 143, 191);
+          text-decoration: none;
+        }
+
+        :hover {
+          background: rgb(192, 7, 84);
+        }
+      }
+    }
+  }
+}
