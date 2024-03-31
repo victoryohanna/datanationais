@@ -16,7 +16,7 @@ const Map = () => {
         >
           <iframe
             style={{ height: "100%", width: "100%" }}
-            frameborder="0"
+            frameBorder="0"
             src="https://www.google.com/maps/embed/v1/search?q=Iledu+Road+Tanke&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
             title="location map"
           ></iframe>
