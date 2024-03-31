@@ -131,7 +131,7 @@ const Navbar = () => {
                   data-bs-toggle="modal"
                   data-bs-target="#regModal"
                 >
-                  Admin Login
+                  Apply Now
                 </button>
                 
               </div>
