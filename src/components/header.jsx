@@ -2,13 +2,15 @@ import "../sass/header.scss";
 import image1 from "../assets/hero1.jpg";
 import image2 from "../assets/hero3.jpg";
 import Banner from "./elements/Banner";
+// import { Link } from "react-scroll";
 
 const HeaderComponent = () => {
   return (
     <div className="container-header" id="hero-section">
       <div
         className="carousel slide carousel-fade carousel-section "
-        data-bs-ride="carousel" data-bs-interval="5000"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -19,7 +21,9 @@ const HeaderComponent = () => {
           </div>
         </div>
       </div>
+
       <Banner />
+      
     </div>
   );
 };

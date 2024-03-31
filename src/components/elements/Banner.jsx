@@ -1,4 +1,4 @@
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -14,6 +14,9 @@ const Banner = () => {
           We offer strategic consulting services to help businesses define their
           data strategy, developing roadmaps for data-driven transformation.
         </p>
+      </div>
+      <div className="bootcamp">
+        <Link to="/" type="button">Join Our Bootcamp</Link>
       </div>
     </div>
   );
