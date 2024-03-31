@@ -14,7 +14,8 @@ const course = [
 ];
 
 const RegisterCourse = () => {
-  const [fullName, setFullName] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
   const [gender, setGender] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -25,7 +26,8 @@ const RegisterCourse = () => {
 
     let studentData = {
       regNo:"001",
-      fullName,
+      firstName,
+      lastName,
       gender,
       email,
       phoneNumber,
@@ -54,7 +56,7 @@ const RegisterCourse = () => {
         <div className="modal-content">
           <div className="modal-header">
             <h1 className="modal-title fs-5" id="regModalLabel">
-              Course Registration
+              Register
             </h1>
             <button
               type="button"
@@ -65,73 +67,101 @@ const RegisterCourse = () => {
           </div>
           <div className="modal-body">
             <form onSubmit={handleSubmit}>
-              <div className="mb-3">
-                <label htmlFor="fullName" className="form-label">
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  className="form-control "
-                  name="fullName"
-                  id="fullName"
-                  onChange={(e) => setFullName(e.target.value)}
-                />
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="mb-3">
+                    <label htmlFor="firstName" className="form-label">
+                      First Name
+                    </label>
+                    <input
+                      type="text"
+                      className="form-control "
+                      name="firstName"
+                      id="firstName"
+                      onChange={(e) => setFirstName(e.target.value)}
+                    />
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="mb-3">
+                    <label htmlFor="lastName" className="form-label">
+                      Last Name
+                    </label>
+                    <input
+                      type="text"
+                      className="form-control "
+                      name="lastName"
+                      id="lastName"
+                      onChange={(e) => setLastName(e.target.value)}
+                    />
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="mb-3">
+                    <label htmlFor="course" className="form-label">
+                      Gender
+                    </label>
+                    <select
+                      className="form-select"
+                      name="course"
+                      aria-label="Default select "
+                      onChange={(e) => setGender(e.target.value)}
+                    >
+                      <option>Select</option>
+                      <option>Female</option>
+                      <option>Male</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="mb-3">
+                    <label htmlFor="phoneNumber" className="form-label">
+                      Phone Number
+                    </label>
+                    <input
+                      type="text"
+                      className="form-control "
+                      name="phoneNumber"
+                      id="phoneNumber"
+                      onChange={(e) => setPhoneNumber(e.target.value)}
+                    />
+                  </div>
+                </div>
+                <div className="col-md-12">
+                  <div className="mb-3">
+                    <label htmlFor="email" className="form-label">
+                      Email address
+                    </label>
+                    <input
+                      type="email"
+                      className="form-control"
+                      name="email"
+                      id="email"
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
+                  </div>
+                </div>
+
+                <div className="col-md-12">
+                  <div className="mb-3">
+                    <label htmlFor="course" className="form-label">
+                      Course
+                    </label>
+                    <select
+                      className="form-select"
+                      name="course"
+                      aria-label="Default select "
+                      onChange={(e) => setCourseName(e.target.value)}
+                    >
+                      <option>Select</option>
+                      {course.map((item, i) => {
+                        return <option key={i}>{item}</option>;
+                      })}
+                    </select>
+                  </div>
+                </div>
               </div>
-              <div className="mb-3">
-                <label htmlFor="course" className="form-label">
-                  Gender
-                </label>
-                <select
-                  className="form-select"
-                  name="course"
-                  aria-label="Default select "
-                  onChange={(e) => setGender(e.target.value)}
-                >
-                  <option>Select</option>
-                  <option>Female</option>
-                  <option>Male</option>
-                </select>
-              </div>
-              <div className="mb-3">
-                <label htmlFor="email" className="form-label">
-                  Email address
-                </label>
-                <input
-                  type="email"
-                  className="form-control"
-                  name="email"
-                  id="email"
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-              <div className="mb-3">
-                <label htmlFor="phoneNumber" className="form-label">
-                  Phone Number
-                </label>
-                <input
-                  type="text"
-                  className="form-control "
-                  name="phoneNumber"
-                  id="phoneNumber"
-                  onChange={(e) => setPhoneNumber(e.target.value)}
-                />
-              </div>
-              <div className="mb-3">
-                <label htmlFor="course" className="form-label">
-                  Course
-                </label>
-                <select
-                  className="form-select"
-                  name="course"
-                  aria-label="Default select "
-                  onChange={(e) => setCourseName(e.target.value)}
-                >
-                  <option>Select</option>
-                  {course.map((item, i) => {
-                    return <option key={i}>{item}</option>;
-                  })}
-                </select>
-              </div>
+
               <div className="btn-submit">
                 <button type="submit" className="btn ">
                   Submit
