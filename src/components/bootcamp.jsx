@@ -68,31 +68,14 @@ function BootcampOverview() {
             approach ensures comprehensive insights into different facets of
             data analytics.
           </p>
+          
           <h6>Application Details</h6>
           <p>
             To ensure a focused and goal-oriented cohort aligned with
             organizational objectives, we limit the program to a maximum of 15
             participants. The application fee is set at fifteen thousand naira
-            (#15,000), with early bird discounts available for the first five
-            applicants at ten thousand naira (#10,000). For registration, apply
-            in person at DataNation_IAS office
-          </p>
-          <h6>Curriculum Highlights</h6>
-          <p>
-            Throughout the 4-week duration, participants will engage in a robust
-            physical learning experience which will take place in the office.
-            The curriculum includes lectures delivered by various instructors,
-            each bringing unique expertise to the table. This diversified
-            approach ensures comprehensive insights into different facets of
-            data analytics.
-          </p>
-          <h6>Application Details</h6>
-          <p>
-            To ensure a focused and goal-oriented cohort aligned with
-            organizational objectives, we limit the program to a maximum of 15
-            participants. The application fee is set at fifteen thousand naira
-            (#15,000) per participant. For registration, apply in person at
-            DataNation_IAS office
+            (&#x20A6;15,000) per participant. For registration, apply in
+            person at DataNation_IAS office
           </p>
           <h6>Commitment to Excellence</h6>
           <p>
