@@ -8,7 +8,7 @@ const Clients = ()=>{
       <div className="clients-wrapper " id="clients-section">
         <div className="container clients-container">
           <div className="header-text">
-            <h1>Our Clients</h1>
+            <h1>Our Partners</h1>
           </div>
           <div className="clients-section">
             <div className="row">

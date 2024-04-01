@@ -1,15 +1,17 @@
 .nav-wrapper {
+
   .navbar-wrapper {
     background: #f8f7f7;
     position: fixed;
     top: 0;
     z-index: 3;
+    padding-bottom: 25px;
 
     .navbar-body {
       .container-fluid {
         .navbar-brand {
           img {
-            width: 250px;
+            width: 150px;
           }
         }
         .navbar-collapse {
@@ -149,11 +151,19 @@
       }
     }
   }
+}
 
+@media screen and (max-width: 768px) {
   .main-wrapper {
     .navbar-wrapper {
       .navbar-body {
         .container-fluid {
+          .navbar-brand{
+            img{
+              width: 150px;
+              height: 100px;
+            }
+          }
           .navbar-collapse {
             .dropdown {
               text-align: left;
