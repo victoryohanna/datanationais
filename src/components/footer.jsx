@@ -17,14 +17,14 @@ const Footer = () => {
               </div>
               <hr />
               <div className="vission_section">
-                <h5>Vision Statement:</h5>
+                {/* <h5>Vision Statement:</h5> */}
                 <p>
                   Our vision is to transform the use of data for academic
                   exploration and business innovation on a global scale.
                 </p>
               </div>
               <div className="mission_section">
-                <h5>Mission Statement:</h5>
+                {/* <h5>Mission Statement:</h5> */}
                 <p>
                   Our mission is to empower individuals and businesses to fully
                   utilize data for significant change and long-term success by
