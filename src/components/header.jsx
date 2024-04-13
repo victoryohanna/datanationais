@@ -4,6 +4,8 @@ import image2 from "../assets/hero3.jpg";
 import Banner from "./elements/Banner";
 // import { Link } from "react-scroll";
 
+import "animate.css";
+
 const HeaderComponent = () => {
   return (
     <div className="container-header" id="hero-section">

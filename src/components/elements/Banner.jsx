@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "animate.css";
 
 const Banner = () => {
   return (
@@ -19,6 +20,12 @@ const Banner = () => {
         <Link to="/bootcamp" type="button">
           Join Our Bootcamp
         </Link>
+      </div>
+      <div className="bootcamp-date ">
+        <p className="">
+          Application End: 30/04/2024
+        </p>
+        <p>Bootcamp Commence: 01/05/2024</p>
       </div>
     </div>
   );

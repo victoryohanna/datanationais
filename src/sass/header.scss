@@ -53,7 +53,6 @@
   }
 
   .bootcamp {
-    
     display: flex;
     justify-content: center;
     // margin-top: 60px;
@@ -72,6 +71,38 @@
     :hover {
       background: rgb(192, 7, 84);
     }
+  }
+
+  .bootcamp-date {
+    text-align: center;
+    margin-top: 10px;
+
+    p {
+      font-size: 24px;
+      font-weight: 700;
+      // color: red;
+      animation: pulse 3s ease infinite alternate,
+        nudge 5s linear infinite alternate;
+        transition: width 2s, height 4s;
+    }
+  }
+}
+
+// @keyframes pulse {
+//   0% {
+//     color: #001f3f;
+//   }
+//   100% {
+//     color: #ff4136;
+//   }
+// }
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: red;
+  }
+  50% {
+    background-color: orange;
   }
 }
 
@@ -108,7 +139,6 @@
   }
 
   .bootcamp {
-    
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -121,6 +151,20 @@
       border-color: #f8f7f7;
       border-radius: 8px;
       background: #f8f7f7;
+    }
+  }
+
+   .bootcamp-date {
+    text-align: center;
+    margin-top: 10px;
+
+    p {
+      font-size: 14px;
+      font-weight: 700;
+      // color: red;
+      animation: pulse 3s ease infinite alternate,
+        nudge 5s linear infinite alternate;
+        transition: width 2s, height 4s;
     }
   }
 }
