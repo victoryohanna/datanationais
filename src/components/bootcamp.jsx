@@ -91,7 +91,7 @@ function BootcampOverview() {
           <div className="register">
             <button
               type="button"
-              data-bs-toggle="modal"
+              data-bs-toggle="modal1"
               data-bs-target="#regModal"
             >
               Apply Now
