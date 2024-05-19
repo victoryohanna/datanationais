@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "animate.css";
 
 const Banner = () => {
@@ -16,17 +16,17 @@ const Banner = () => {
           data strategy, developing roadmaps for data-driven transformation.
         </p>
       </div>
-      <div className="bootcamp">
+      {/* <div className="bootcamp">
         <Link to="/bootcamp" type="button">
           Join Our Bootcamp
         </Link>
-      </div>
-      <div className="bootcamp-date ">
+      </div> */}
+      {/* <div className="bootcamp-date ">
         <p className="">
           Application End: 30/04/2024
         </p>
         <p>Bootcamp Commence: 01/05/2024</p>
-      </div>
+      </div> */}
     </div>
   );
 };
