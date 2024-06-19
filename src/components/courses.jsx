@@ -89,7 +89,7 @@ const Courses = () => {
                   </li>
                   <li>
                     <button type="button" onClick={renderTableau}>
-                      Taleau for Data Visualization
+                      Tableau for Data Visualization
                     </button>
                   </li>
                   <li>

@@ -2,8 +2,9 @@ import { Tabs, Tab } from "react-bootstrap";
 import {
   sqlBeginnerCourse,
   sqlIntermediateCourse,
-  sqlAdvancedCourse,
+  
 } from "../courses";
+//sqlAdvancedCourse,
 
 const Sql = () => {
   return (
@@ -84,7 +85,7 @@ const Sql = () => {
               );
             })}
           </Tab>
-          <Tab eventKey="#3" title="Level 3">
+          {/* <Tab eventKey="#3" title="Level 3">
             {sqlAdvancedCourse.map((course, i) => {
               return (
                 <div className="collapse-section1" key={i}>
@@ -119,7 +120,7 @@ const Sql = () => {
                 </div>
               );
             })}
-          </Tab>
+          </Tab> */}
         </Tabs>
       </div>
     </div>
