@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import brand from "../assets/logo1.jpg";
+import brand from "../assets/logo1.png";
 
 import "../sass/navbar.scss";
 import RegisterCourse from "./common/register";
