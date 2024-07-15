@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import brand from "../assets/logo1.jpg";
+import brand from "../assets/logo1.png";
 
 import "../sass/navbar.scss";
 
