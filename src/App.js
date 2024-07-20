@@ -21,7 +21,7 @@ export default function App() {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
-        <Route path="/bootcamp" element={<Bootcamp/>} />
+        <Route path="/training" element={<Bootcamp/>} />
         <Route path="/services" element={<Services />}>
           <Route path="/services/data-analytics" element={<Analytics />} />
           <Route

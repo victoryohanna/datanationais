@@ -1,6 +1,6 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Link } from "react-router-dom";
-import Modal from "react-bootstrap/Modal";
+// import Modal from "react-bootstrap/Modal";
 
 import slide1 from "../assets/images/dais1.png";
 import slide2 from "../assets/images/dais2.png";
@@ -10,10 +10,10 @@ import Carousel from "react-bootstrap/Carousel";
 import "../sass/herosection.scss";
 
 function HeroSection() {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
 
   return (
     <div className=" main-desktop" id="hero-section">
@@ -52,7 +52,7 @@ function HeroSection() {
               courses are tailored to meet your needs.
             </p>
             <div className="btn-max">
-              <Link type="button" to="/" state={"about"} onClick={handleShow}>
+              <Link type="button" to="/training" state={"about"} >
                 Apply Now
               </Link>
             </div>
@@ -60,7 +60,7 @@ function HeroSection() {
         </div>
       </div>
 
-      <Modal
+      {/* <Modal
         show={show}
         onHide={handleClose}
         size="lg"
@@ -245,7 +245,7 @@ function HeroSection() {
             </div>
           </div>
         </Modal.Body>
-      </Modal>
+      </Modal> */}
     </div>
   );
 }
