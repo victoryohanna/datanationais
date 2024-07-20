@@ -125,7 +125,7 @@ const Navbar = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="button-section">
+              {/* <div className="button-section">
                 <button
                   type="button"
                   data-bs-toggle="modal1"
@@ -134,7 +134,7 @@ const Navbar = () => {
                   Apply Now
                 </button>
                 
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>
