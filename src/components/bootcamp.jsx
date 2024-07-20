@@ -5,16 +5,17 @@ function BootcampOverview() {
     <div className="bootcamp-main">
       <div className="container">
         <div className="title-section">
-          <h3>Join Our Trainig</h3>
+          <h3>Join Our Training</h3>
         </div>
         <div className="content">
           <div className="modal-btn">
             <div>
               <p>
-                DataNation Integrated Analytics Service present a four month
-                Data Analytics training with a full two phase well loaded
-                package and content to become an analyst, the class is schedule
-                to holding on every Friday and Saturday for 3hrs.
+                DataNation Integrated Analytics Service present a
+                <b>three months</b>physical and <b>four months</b> virtual Data
+                analytics training with a full two phase well loaded package and
+                content to become an analyst, the class is schedule to holding
+                on every Friday and Saturday for 3hrs.
               </p>
               <p>
                 Understand Data Analysis 📊📈 and Become an analyst in, Excel,
@@ -24,12 +25,12 @@ function BootcampOverview() {
               </p>
               <p>
                 Application is fully open throughout the Month of July and
-                Commence date will communicated via same website and our premium
-                whatApp group
+                Commence date will communicated via same website and our
+                dedicated whatApp group
               </p>
             </div>
             <div>
-              <h6>FIRST PHASE (2 MONTHS)</h6>
+              <h6>FIRST SEMESTER (2 MONTHS)</h6>
               <div>
                 <h6>1. Understand Data</h6>
                 <ul>
