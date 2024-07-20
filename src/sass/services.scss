@@ -89,6 +89,9 @@
 @media screen and (max-width: 990px) {
   .services-wrapper {
     .services-container {
+      .header-text{
+        text-align: justify;
+      }
       .row {
         margin: 40px 0;
         .col-md-6 {
