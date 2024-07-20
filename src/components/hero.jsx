@@ -236,7 +236,7 @@ function HeroSection() {
             <div className="btn" style={{ background: "#108fbf", width: 250 }}>
               <Link
                 type="button"
-                to="/"
+                to="https://forms.zohopublic.com/datanationintegratedanalyticss/form/Applicants/formperma/a9Ujees35yPIf9iCgIdY72CZiZHHzw3GFJMBGy9vLyc"
                 target="_blank"
                 style={{ color: "#ffffff", fontSize: 22 }}
               >
