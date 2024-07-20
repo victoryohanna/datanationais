@@ -12,7 +12,7 @@ function BootcampOverview() {
             <div>
               <p>
                 DataNation Integrated Analytics Service present a
-                <b>three months</b>physical and <b>four months</b> virtual Data
+                <b>three months</b> physical and <b>four months</b> virtual Data
                 analytics training with a full two phase well loaded package and
                 content to become an analyst, the class is schedule to holding
                 on every Friday and Saturday for 3hrs.
