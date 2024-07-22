@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function BootcampOverview() {
   return (
@@ -11,26 +11,34 @@ function BootcampOverview() {
           <div className="modal-btn">
             <div>
               <p>
-                DataNation Integrated Analytics Service present a
-                <b>three months</b> physical and <b>four months</b> virtual Data
-                analytics training with a full two phase well loaded package and
-                content to become an analyst, the class is schedule to holding
-                on every Friday and Saturday for 3hrs.
+                DataNation Integrated Analytics Service offers a comprehensive
+                data analytics training program consisting of a{" "}
+                <b>3-month physical and a 4-month virtual class</b>.
               </p>
+              <h5>
+                <b>Tentative Schedules:</b>
+              </h5>
+              <h6>
+                <b>Physical Class - </b>
+                <span>Wednesday, Friday and Saturday</span>
+              </h6>
+              <h6>
+                <b>Virtual Live Class - </b>
+                <span>Friday and Saturday</span>
+              </h6>
+
+              <h6>Three (3) Hours per session</h6>
               <p>
-                Understand Data Analysis 📊📈 and Become an analyst in, Excel,
-                Python, Power BI, SQL and below is what you are getting for just
-                small token, register with us today at Datanation Integrated
-                Analytics service because we have the best hand that teach you.
-              </p>
-              <p>
-                Application is fully open throughout the Month of July and
-                Commence date will communicated via same website and our
-                dedicated whatApp group
+                This is an excellent opportunity for individuals aspiring to
+                become data analysts. Registration for the program is open
+                throughout the month of July. The commencement date will be
+                communicated via the website and a dedicated WhatsApp group.The
+                training provides a robust curriculum and content to develop
+                participants into skilled data analysts.
               </p>
             </div>
             <div>
-              <h6>FIRST SEMESTER (2 MONTHS)</h6>
+              <h6>FIRST PHASE</h6>
               <div>
                 <h6>1. Understand Data</h6>
                 <ul>
@@ -81,7 +89,7 @@ function BootcampOverview() {
               </div>
             </div>
             <div>
-              <h6>SECOND SEMESTER (2 MONTHS)</h6>
+              <h6>SECOND PHASE</h6>
               <div>
                 <h6>4. Learn SQL </h6>
                 <ul>
@@ -139,6 +147,7 @@ function BootcampOverview() {
                 </ul>
               </div>
             </div>
+            <p>Let the best hand train you!! 👨🏽‍💻</p>
             <div>
               <h5>
                 <b>Registration Information:</b>
