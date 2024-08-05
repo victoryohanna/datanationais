@@ -30,11 +30,11 @@ function BootcampOverview() {
               <h6>Three (3) Hours per session</h6>
               <p>
                 This is an excellent opportunity for individuals aspiring to
-                become data analysts. Registration for the program is open
-                throughout the month of July. The commencement date will be
-                communicated via the website and a dedicated WhatsApp group.The
-                training provides a robust curriculum and content to develop
-                participants into skilled data analysts.
+                become data analysts. Registration for the program is still open.
+                Physical classes starts on <b>August 9, 2024</b> while virtual
+                classes starts on <b>August 16, 2024</b>.The training provides a
+                robust curriculum and content to develop participants into
+                skilled data analysts.
               </p>
             </div>
             <div>
