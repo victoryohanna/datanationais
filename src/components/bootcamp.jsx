@@ -161,13 +161,13 @@ function BootcampOverview() {
                 <span>150,000 NGN</span>
               </h6>
 
-              <h6>
+              {/* <h6>
                 <b>Registration Period:</b>
                 <span> Now until August 2, 2024</span>
               </h6>
               <h6>
                 <b>Classes Begin:</b> <span> First week of August 2024</span>
-              </h6>
+              </h6> */}
               <p>
                 <b>Note:</b> An upfront payment of 70% of the total fee is
                 required before the commencement of the first phase.
